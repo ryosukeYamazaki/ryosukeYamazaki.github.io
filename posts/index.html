@@ -3,7 +3,6 @@
 
 <html lang="ja" data-theme="">
 <head>
-	<meta name="generator" content="Hugo 0.78.1" />
     
         
 <meta charset="utf-8">
@@ -11,10 +10,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Anubis</title>
+<title>Posts - Anubis</title>
 <meta name="description" content="">
 
-<link rel="alternate" type="application/rss+xml" href="https://ryosukeYamazaki.github.io/index.xml" title="Anubis" />
+<link rel="alternate" type="application/rss+xml" href="https://ryosukeYamazaki.github.io/posts/index.xml" title="Anubis" />
 <link rel="icon" type="image/x-icon" href="https://ryosukeYamazaki.github.io/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://ryosukeYamazaki.github.io/favicon.png">
 
@@ -40,17 +39,17 @@
 
 
 
-<meta property="og:title" content="Anubis" />
+<meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://ryosukeYamazaki.github.io/" />
+<meta property="og:url" content="https://ryosukeYamazaki.github.io/posts/" />
 <meta property="og:image" content="https://ryosukeYamazaki.github.io/images/og-featured.png"/>
 <meta property="og:updated_time" content="2020-11-08T19:45:36+09:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://ryosukeYamazaki.github.io/images/og-featured.png"/>
 
-<meta name="twitter:title" content="Anubis"/>
+<meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -75,7 +74,7 @@
     <nav>
         
         
-        <a class="" href="https://ryosukeYamazaki.github.io/posts/" title="Archive">Archive</a>
+        <a class=" active" href="https://ryosukeYamazaki.github.io/posts/" title="Archive">Archive</a>
         
     </nav>
 
@@ -84,33 +83,18 @@
         </header>
         <main id="main" tabindex="-1"> 
             
-    <div class="homepage-content">
+    <div class="index-content">
         
     </div>
 
+    <h1 class="post-title">Posts</h1>
     
     
-        <article class="post-list">
-    <header class="post-header">
-        <h1 class="post-title"><a href="/posts/hugo-no-hajimekata/">hugoの始め方</a></h1>
-    </header>
-
-    <div class="content post-summary">
-        installする linuxの場合はsnapをつかってinstallする。
-sudo snap install hugo --channel=extended aptのinstallでは最新バージョンが落ちてこないので注意。
-テーマをダウンロードする https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。
-yamlファイルをtomlに変換する 上のテーマはyamlで設定ファイルの例が書かれていた。
-そのままではquickstartのtomlと競合する。
-そのため、下記のサイトを利用して、yamlをtomlに変換する
-https://www.convertsimple.com/convert-yaml-to-toml/
-開発サーバを起動する localで書いている場合 hugo server -D リモートホストで起動している場合 リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。
-そのため、下記のコマンドで立ち上げる。
-hugo server -v -D --bind 0.0.0.0 -p 8888 --baseUrl=hogehoge.net きれいに立ち上がる お疲れさまでした。
-めちゃ簡単に立ち上がった。
-    </div>
-    
-    
-    
+        <div class="post-short-list">
+            <header class="post-header"> 
+                <h2 class="post-title"><a href="/posts/hugo-no-hajimekata/">hugoの始め方</a></h2>
+            </header>
+            
 
     
 
@@ -125,10 +109,8 @@ hugo server -v -D --bind 0.0.0.0 -p 8888 --baseUrl=hogehoge.net きれいに立�
     </div>
 </div>
 
-</article>
+        </div>
     
-    
-
 
 
         </main>
