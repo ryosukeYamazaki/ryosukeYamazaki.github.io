@@ -1,1 +1,0 @@
-# ryosukeYamazaki.github.io
