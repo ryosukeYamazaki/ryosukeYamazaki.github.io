@@ -1,46 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Anubis</title>
-    <link>https://ryosukeYamazaki.github.io/</link>
-    <description>Anubis</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sun, 08 Nov 2020 19:45:36 +0900</lastBuildDate>
-    
-    <atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>hugoの始め方</title>
-      <link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link>
-      <pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate>
-      
-      <guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid>
-      <description>&lt;h1 id=&#34;installする&#34;&gt;installする&lt;/h1&gt;
-&lt;p&gt;linuxの場合はsnapをつかってinstallする。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo snap install hugo --channel&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;extended
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;aptのinstallでは最新バージョンが落ちてこないので注意。&lt;/p&gt;
-&lt;h1 id=&#34;テーマをダウンロードする&#34;&gt;テーマをダウンロードする&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Mitrichius/hugo-theme-anubis&#34;&gt;https://github.com/Mitrichius/hugo-theme-anubis&lt;/a&gt;
-私はこのテーマをダウンロードした。&lt;/p&gt;
-&lt;h1 id=&#34;yamlファイルをtomlに変換する&#34;&gt;yamlファイルをtomlに変換する&lt;/h1&gt;
-&lt;p&gt;上のテーマはyamlで設定ファイルの例が書かれていた。&lt;br&gt;
-そのままではquickstartのtomlと競合する。&lt;br&gt;
-そのため、下記のサイトを利用して、yamlをtomlに変換する&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.convertsimple.com/convert-yaml-to-toml/&#34;&gt;https://www.convertsimple.com/convert-yaml-to-toml/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;開発サーバを起動する&#34;&gt;開発サーバを起動する&lt;/h1&gt;
-&lt;h2 id=&#34;localで書いている場合&#34;&gt;localで書いている場合&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;hugo server -D
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;リモートホストで起動している場合&#34;&gt;リモートホストで起動している場合&lt;/h2&gt;
-&lt;p&gt;リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。&lt;br&gt;
-そのため、下記のコマンドで立ち上げる。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;hugo server -v -D --bind 0.0.0.0 -p &lt;span style=&#34;color:#ae81ff&#34;&gt;8888&lt;/span&gt; --baseUrl&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;hogehoge.net
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;きれいに立ち上がる&#34;&gt;きれいに立ち上がる&lt;/h1&gt;
-&lt;p&gt;お疲れさまでした。&lt;br&gt;
-めちゃ簡単に立ち上がった。&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 08 Nov 2020 19:45:36 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする&lt;/h1>
+&lt;p>linuxの場合はsnapをつかってinstallする。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">sudo snap install hugo --channel&lt;span style="color:#f92672">=&lt;/span>extended
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>aptのinstallでは最新バージョンが落ちてこないので注意。&lt;/p>
+&lt;h1 id="テーマをダウンロードする">テーマをダウンロードする&lt;/h1>
+&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>
+私はこのテーマをダウンロードした。&lt;/p>
+&lt;h1 id="yamlファイルをtomlに変換する">yamlファイルをtomlに変換する&lt;/h1>
+&lt;p>上のテーマはyamlで設定ファイルの例が書かれていた。&lt;br>
+そのままではquickstartのtomlと競合する。&lt;br>
+そのため、下記のサイトを利用して、yamlをtomlに変換する&lt;/p>
+&lt;p>&lt;a href="https://www.convertsimple.com/convert-yaml-to-toml/">https://www.convertsimple.com/convert-yaml-to-toml/&lt;/a>&lt;/p>
+&lt;h1 id="開発サーバを起動する">開発サーバを起動する&lt;/h1>
+&lt;h2 id="localで書いている場合">localで書いている場合&lt;/h2>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="リモートホストで起動している場合">リモートホストで起動している場合&lt;/h2>
+&lt;p>リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。&lt;br>
+そのため、下記のコマンドで立ち上げる。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">hugo server -v -D --bind 0.0.0.0 -p &lt;span style="color:#ae81ff">8888&lt;/span> --baseUrl&lt;span style="color:#f92672">=&lt;/span>hogehoge.net
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="きれいに立ち上がる">きれいに立ち上がる&lt;/h1>
+&lt;p>お疲れさまでした。&lt;br>
+めちゃ簡単に立ち上がった。&lt;/p></description></item></channel></rss>
