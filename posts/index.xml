@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 08 Nov 2020 19:45:36 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Mon, 14 Dec 2020 12:49:03 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Aliasを使って Git の頻出コマンドを効率化する</title><link>https://ryosukeYamazaki.github.io/posts/git-gh-alias/</link><pubDate>Mon, 14 Dec 2020 12:49:03 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/git-gh-alias/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+&lt;p>gitコマンドは省略できる。&lt;/p>
+&lt;p>例えば、&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように。&lt;/p>
+&lt;p>開発していると git コマンドは大量につかう。
+そのため、省略することで作業を効率化したい。&lt;/p>
+&lt;p>今回、使用する alias の機能は2種類。&lt;/p>
+&lt;ul>
+&lt;li>bash の alias&lt;/li>
+&lt;li>git の alias&lt;/li>
+&lt;/ul>
+&lt;h1 id="git-のaliasコマンド">git のAliasコマンド&lt;/h1>
+&lt;p>git の aliasは &lt;code>.gitconfig&lt;/code> に追記することで設定できる。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git st
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のようにしたい場合は、下記の箇所に追記する。&lt;/p>
+&lt;pre>&lt;code>[credential]
+helper = store
+[user]
+name = ryosukeYamazaki
+email = ryamazaki@c-fo.com
+[filter &amp;quot;lfs&amp;quot;]
+clean = git-lfs clean %f
+smudge = git-lfs smudge %f
+required = true
+[url &amp;quot;ssh://git@github.com&amp;quot;]
+insteadOf = git://git@github.com
+[url &amp;quot;ssh://git@github.com&amp;quot;]
+insteadOf = https://github.com
+[core]
+editor = emacs -nw
+excludesfile = ~/.gitignore
+[alias] # 追記する箇所はここ。 # 追記する箇所はここ。
+st = status # 追記する箇所はここ。
+&lt;/code>&lt;/pre>&lt;h1 id="bash-のalias">bash のalias&lt;/h1>
+&lt;p>bash の aliasは &lt;code>.bashrc&lt;/code> or &lt;code>.bash_profile&lt;/code> に追記することで設定できる。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>下記の行を&lt;code>.bashrc&lt;/code> or &lt;code>.bash_profile&lt;/code> に追記する。&lt;/p>
+&lt;pre>&lt;code>alias g='git'
+&lt;/code>&lt;/pre>&lt;p>最後にshellの再起動しておけば反映される。&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">exec $SHELL -l
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="git-bashの-aliasを組み合わせ">git, bashの aliasを組み合わせ&lt;/h1>
+&lt;p>両者を組み合わせると&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使うことができる。
+便利。&lt;/p></description></item><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする&lt;/h1>
 &lt;p>linuxの場合はsnapをつかってinstallする。&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">sudo snap install hugo --channel&lt;span style="color:#f92672">=&lt;/span>extended
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>aptのinstallでは最新バージョンが落ちてこないので注意。&lt;/p>

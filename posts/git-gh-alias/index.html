@@ -1,0 +1,50 @@
+<!doctype html><html lang=ja data-theme><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer-when-downgrade"><title>Aliasを使って Git の頻出コマンドを効率化する - moaiの走り書き</title><meta name=description content><link rel=icon type=image/x-icon href=https://ryosukeYamazaki.github.io/favicon.ico><link rel=apple-touch-icon-precomposed href=https://ryosukeYamazaki.github.io/favicon.png><link rel=stylesheet href=https://ryosukeYamazaki.github.io/css/style.bf67952500c522fa4be2b487513979e2a6f82a03826f34db9e4592670b2a1c3b.css integrity="sha256-v2eVJQDFIvpL4rSHUTl54qb4KgOCbzTbnkWSZwsqHDs="><meta property="og:title" content="Aliasを使って Git の頻出コマンドを効率化する"><meta property="og:description" content="これ何？ gitコマンドは省略できる。
+例えば、
+git status を
+g st のように。
+開発していると git コマンドは大量につかう。 そのため、省略することで作業を効率化したい。
+今回、使用する alias の機能は2種類。
+ bash の alias git の alias  git のAliasコマンド git の aliasは .gitconfig に追記することで設定できる。
+git status を
+git st のようにしたい場合は、下記の箇所に追記する。
+[credential] helper = store [user] name = ryosukeYamazaki email = ryamazaki@c-fo.com [filter &#34;lfs&#34;] clean = git-lfs clean %f smudge = git-lfs smudge %f required = true [url &#34;ssh://git@github.com&#34;] insteadOf = git://git@github.com [url &#34;ssh://git@github.com&#34;] insteadOf = https://github."><meta property="og:type" content="article"><meta property="og:url" content="https://ryosukeYamazaki.github.io/posts/git-gh-alias/"><meta property="og:image" content="https://ryosukeYamazaki.github.io/images/og-featured.png"><meta property="article:published_time" content="2020-12-14T12:49:03+09:00"><meta property="article:modified_time" content="2020-12-14T12:49:03+09:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ryosukeYamazaki.github.io/images/og-featured.png"><meta name=twitter:title content="Aliasを使って Git の頻出コマンドを効率化する"><meta name=twitter:description content="これ何？ gitコマンドは省略できる。
+例えば、
+git status を
+g st のように。
+開発していると git コマンドは大量につかう。 そのため、省略することで作業を効率化したい。
+今回、使用する alias の機能は2種類。
+ bash の alias git の alias  git のAliasコマンド git の aliasは .gitconfig に追記することで設定できる。
+git status を
+git st のようにしたい場合は、下記の箇所に追記する。
+[credential] helper = store [user] name = ryosukeYamazaki email = ryamazaki@c-fo.com [filter &#34;lfs&#34;] clean = git-lfs clean %f smudge = git-lfs smudge %f required = true [url &#34;ssh://git@github.com&#34;] insteadOf = git://git@github.com [url &#34;ssh://git@github.com&#34;] insteadOf = https://github."></head><body><a class=skip-main href=#main>Skip to main content</a><div class=container><header class=common-header><h1 class=site-title><a href=/>moaiの走り書き</a></h1><nav><a href=https://ryosukeYamazaki.github.io/posts/ title=Archive>moaiの走り書き</a></nav></header><main id=main tabindex=-1><article class=post><header class=post-header><h1 class=post-title>Aliasを使って Git の頻出コマンドを効率化する</h1></header><div class=content><h1 id=これ何>これ何？</h1><p>gitコマンドは省略できる。</p><p>例えば、</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>git status
+</code></pre></div><p>を</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>g st
+</code></pre></div><p>のように。</p><p>開発していると git コマンドは大量につかう。
+そのため、省略することで作業を効率化したい。</p><p>今回、使用する alias の機能は2種類。</p><ul><li>bash の alias</li><li>git の alias</li></ul><h1 id=git-のaliasコマンド>git のAliasコマンド</h1><p>git の aliasは <code>.gitconfig</code> に追記することで設定できる。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>git status
+</code></pre></div><p>を</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>git st
+</code></pre></div><p>のようにしたい場合は、下記の箇所に追記する。</p><pre><code>[credential]
+	helper = store
+[user]
+	name = ryosukeYamazaki
+	email = ryamazaki@c-fo.com
+[filter &quot;lfs&quot;]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[url &quot;ssh://git@github.com&quot;]
+     insteadOf = git://git@github.com
+[url &quot;ssh://git@github.com&quot;]
+  insteadOf = https://github.com
+[core]
+	editor = emacs -nw
+	excludesfile = ~/.gitignore
+[alias] # 追記する箇所はここ。 # 追記する箇所はここ。
+	st = status # 追記する箇所はここ。
+</code></pre><h1 id=bash-のalias>bash のalias</h1><p>bash の aliasは <code>.bashrc</code> or <code>.bash_profile</code> に追記することで設定できる。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>git status
+</code></pre></div><p>を</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>g status
+</code></pre></div><p>下記の行を<code>.bashrc</code> or <code>.bash_profile</code> に追記する。</p><pre><code>alias g='git'
+</code></pre><p>最後にshellの再起動しておけば反映される。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>exec $SHELL -l
+</code></pre></div><h1 id=git-bashの-aliasを組み合わせ>git, bashの aliasを組み合わせ</h1><p>両者を組み合わせると</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>git status
+</code></pre></div><p>を</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>g st
+</code></pre></div><p>のように使うことができる。
+便利。</p></div><div class=post-info><div class=post-date>2020-12-14</div><div class=post-taxonomies></div></div></article><div class="pagination post-pagination"><div class="left pagination-item disabled"></div><div class="right pagination-item"><a href=/posts/hugo-no-hajimekata/>hugoの始め方</a></div></div><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
+var d=document,s=d.createElement('script');s.async=true;s.src='//'+"yourdiscussshortname"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></main><footer class=common-footer><div class=common-footer-bottom><div class=copyright><p>© moai, 2021<br>Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, theme <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.</p></div></div></footer></div></body></html>
