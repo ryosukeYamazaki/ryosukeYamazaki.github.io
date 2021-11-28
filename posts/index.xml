@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 08:23:06 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 09:26:32 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
+&lt;p>名古屋と東京の求人数を比較する。&lt;/p>
+&lt;h1 id="求人数の比較媒体">求人数の比較媒体&lt;/h1>
+&lt;p>比較にはGreenを使う。&lt;/p>
+&lt;p>他にもリクナビ、マイナビが候補に有った。&lt;br>
+でも、両者ともにワイの周りでこの２つに求人媒体使っている人見たことない。&lt;br>
+Greenは見たことある。&lt;/p>
+&lt;p>あと、他の媒体は小さそう。&lt;/p>
+&lt;h1 id="名古屋">名古屋&lt;/h1>
+&lt;ul>
+&lt;li>227企業&lt;/li>
+&lt;li>549求人&lt;br>
+&lt;img src="https://gyazo.com/424c9015e919fcd25e80cc9e15c1a692" alt="名古屋のWeb企業求人数検索結果">&lt;/li>
+&lt;/ul>
+&lt;h1 id="東京">東京&lt;/h1>
+&lt;ul>
+&lt;li>2138企業&lt;/li>
+&lt;li>6641求人&lt;br>
+&lt;img src="https://gyazo.com/3118f98cba1676935d97fa01516d1c34" alt="名古屋のWeb企業求人数検索結果">&lt;/li>
+&lt;/ul></description></item><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
 &lt;p>このブログのdeploy方法&lt;/p>
 &lt;h1 id="やること">やること&lt;/h1>
 &lt;p>これを実行する&lt;/p>
