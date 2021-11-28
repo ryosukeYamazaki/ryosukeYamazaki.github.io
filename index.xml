@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 08:23:06 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Deploy_my_blog</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 08:23:06 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
 &lt;p>このブログのdeploy方法&lt;/p>
 &lt;h1 id="やること">やること&lt;/h1>
 &lt;p>これを実行する&lt;/p>
-&lt;pre tabindex="0">&lt;code>sh ./deploy.sh
+&lt;pre tabindex="0">&lt;code>make deploy
 &lt;/code>&lt;/pre></description></item><item><title>Hugo_build_lock</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
 &lt;p>&lt;code>.hugo_build.lock&lt;/code> ファイルって何？&lt;/p>
 &lt;h1 id="build用のロックファイル">build用のロックファイル。&lt;/h1>
