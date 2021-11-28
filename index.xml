@@ -18,7 +18,7 @@
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>のように。&lt;/p>
-&lt;p>開発していると git コマンドは大量につかう。
+&lt;p>開発していると git コマンドは大量につかう。&lt;br>
 そのため、省略することで作業を効率化したい。&lt;/p>
 &lt;p>今回、使用する alias の機能は2種類。&lt;/p>
 &lt;ul>
@@ -63,12 +63,12 @@ st = status # 追記する箇所はここ。
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使うことができる。
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使うことができる。&lt;br>
 便利。&lt;/p></description></item><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする&lt;/h1>
-&lt;p>&lt;a href="https://gohugo.io/getting-started/installing/#fetch-from-github">https://gohugo.io/getting-started/installing/#fetch-from-github&lt;/a> にある通り。
+&lt;p>&lt;a href="https://gohugo.io/getting-started/installing/#fetch-from-github">https://gohugo.io/getting-started/installing/#fetch-from-github&lt;/a> にある通り。&lt;br>
 ソースからbuildする&lt;/p>
 &lt;h1 id="テーマをダウンロードする">テーマをダウンロードする&lt;/h1>
-&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>
+&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>&lt;br>
 私はこのテーマをダウンロードした。&lt;/p>
 &lt;h1 id="yamlファイルをtomlに変換する">yamlファイルをtomlに変換する&lt;/h1>
 &lt;p>上のテーマはyamlで設定ファイルの例が書かれていた。&lt;br>
