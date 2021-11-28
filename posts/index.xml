@@ -22,7 +22,7 @@ Greenは見たことある。&lt;/p>
 &lt;h1 id="やること">やること&lt;/h1>
 &lt;p>これを実行する&lt;/p>
 &lt;pre tabindex="0">&lt;code>make deploy
-&lt;/code>&lt;/pre></description></item><item><title>Hugo_build_lock</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
+&lt;/code>&lt;/pre></description></item><item><title>.hugo_build.lock って何さ？</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
 &lt;p>&lt;code>.hugo_build.lock&lt;/code> ファイルって何？&lt;/p>
 &lt;h1 id="build用のロックファイル">build用のロックファイル。&lt;/h1>
 &lt;p>&lt;a href="https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417">https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417&lt;/a>&lt;/p>
