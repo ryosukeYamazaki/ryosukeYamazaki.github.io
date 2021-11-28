@@ -10,13 +10,13 @@ Greenは見たことある。&lt;/p>
 &lt;ul>
 &lt;li>227企業&lt;/li>
 &lt;li>549求人&lt;br>
-&lt;img src="https://gyazo.com/424c9015e919fcd25e80cc9e15c1a692" alt="名古屋のWeb企業求人数検索結果">&lt;/li>
+&lt;a href="https://gyazo.com/424c9015e919fcd25e80cc9e15c1a692">&lt;img src="https://i.gyazo.com/424c9015e919fcd25e80cc9e15c1a692.png" alt="名古屋のWeb企業求人数検索結果">&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h1 id="東京">東京&lt;/h1>
 &lt;ul>
 &lt;li>2138企業&lt;/li>
 &lt;li>6641求人&lt;br>
-&lt;img src="https://gyazo.com/3118f98cba1676935d97fa01516d1c34" alt="名古屋のWeb企業求人数検索結果">&lt;/li>
+&lt;a href="https://gyazo.com/3118f98cba1676935d97fa01516d1c34">&lt;img src="https://i.gyazo.com/3118f98cba1676935d97fa01516d1c34.png" alt="東京のWeb企業求人数検索結果">&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
 &lt;p>このブログのdeploy方法&lt;/p>
 &lt;h1 id="やること">やること&lt;/h1>
