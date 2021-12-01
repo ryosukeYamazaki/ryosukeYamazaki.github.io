@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 28 Nov 2021 09:26:32 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 02 Dec 2021 08:01:11 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>東京と名古屋の家賃を比較する</title><link>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</link><pubDate>Thu, 02 Dec 2021 08:01:11 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+&lt;p>東京と名古屋の家賃を比較する。&lt;br>
+時間すると良いと思うので、統計的な情報をキャプチャとともに張っておく。&lt;/p>
+&lt;h1 id="統計情報">統計情報&lt;/h1>
+&lt;p>だいたい正しいでしょってことでSUMOの情報を使う。&lt;br>
+代表地点として東京駅（千代田区）があるところと、名古屋駅（中村区）がある地点を比較する。&lt;/p>
+&lt;h2 id="東京駅千代田区の平均家賃">東京駅（千代田区）の平均家賃&lt;/h2>
+&lt;p>&lt;a href="https://gyazo.com/b12b47b61574f6f732b3ab4168c769df">&lt;img src="https://i.gyazo.com/b12b47b61574f6f732b3ab4168c769df.png" alt="東京都の家賃相場">&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>間取り&lt;/th>
+&lt;th>平均家賃（万円）&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>ワンルーム&lt;/td>
+&lt;td>6.6&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1K/1DK&lt;/td>
+&lt;td>8.7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1LDK/2K/2DK&lt;/td>
+&lt;td>16.7&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2LDK/3K/3DK&lt;/td>
+&lt;td>23.8&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3LDK/4K～&lt;/td>
+&lt;td>31.3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="名古屋駅中村区の平均家賃">名古屋駅（中村区）の平均家賃&lt;/h2>
+&lt;p>&lt;a href="https://gyazo.com/57688bb701f5771bdcefe60529ed821c">&lt;img src="https://i.gyazo.com/57688bb701f5771bdcefe60529ed821c.png" alt="愛知県の家賃相場">&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>間取り&lt;/th>
+&lt;th>平均家賃（万円）&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>ワンルーム&lt;/td>
+&lt;td>5.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1K/1DK&lt;/td>
+&lt;td>5.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1LDK/2K/2DK&lt;/td>
+&lt;td>8.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2LDK/3K/3DK&lt;/td>
+&lt;td>10.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3LDK/4K～&lt;/td>
+&lt;td>11.9&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="雑感">雑感&lt;/h1>
+&lt;p>東京高いな。とくに広くなったときの家賃の上がり幅がきつい。&lt;br>
+東京が高い理由はおそらく東京は土地の価格が高すぎるから。&lt;br>
+そのため、部屋がでかくなればなるほど価格の土地代が分が大きくなり高くなる。&lt;/p>
+&lt;p>一方名古屋は土地の値段がそこまで高くない。&lt;br>
+そのため、広くなったときの家賃の上がり方が緩やかななのではとおもう。&lt;/p></description></item><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
 &lt;p>名古屋と東京の求人数を比較する。&lt;/p>
 &lt;h1 id="求人数の比較媒体">求人数の比較媒体&lt;/h1>
 &lt;p>比較にはGreenを使う。&lt;/p>
