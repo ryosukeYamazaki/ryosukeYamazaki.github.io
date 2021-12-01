@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 02 Dec 2021 08:01:11 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>東京と名古屋の家賃を比較する</title><link>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</link><pubDate>Thu, 02 Dec 2021 08:01:11 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
-&lt;p>東京と名古屋の家賃を比較する。&lt;br>
-時間すると良いと思うので、統計的な情報をキャプチャとともに張っておく。&lt;/p>
+&lt;p>東京と名古屋の家賃を比較する。&lt;/p>
 &lt;h1 id="統計情報">統計情報&lt;/h1>
 &lt;p>だいたい正しいでしょってことでSUMOの情報を使う。&lt;br>
 代表地点として東京駅（千代田区）があるところと、名古屋駅（中村区）がある地点を比較する。&lt;/p>
