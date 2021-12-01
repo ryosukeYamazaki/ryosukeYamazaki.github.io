@@ -4,70 +4,48 @@
 &lt;h1 id="統計情報">統計情報&lt;/h1>
 &lt;p>だいたい正しいでしょってことでSUMOの情報を使う。&lt;br>
 代表地点として東京駅（千代田区）があるところと、名古屋駅（中村区）がある地点を比較する。&lt;/p>
-&lt;h2 id="東京駅千代田区の平均家賃">東京駅（千代田区）の平均家賃&lt;/h2>
-&lt;p>&lt;a href="https://gyazo.com/b12b47b61574f6f732b3ab4168c769df">&lt;img src="https://i.gyazo.com/b12b47b61574f6f732b3ab4168c769df.png" alt="東京都の家賃相場">&lt;/a>&lt;/p>
+&lt;h2 id="比較表">比較表&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>間取り&lt;/th>
-&lt;th>平均家賃（万円）&lt;/th>
+&lt;th>東京の平均家賃（万円）&lt;/th>
+&lt;th>愛知県の平均家賃（万円）&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
 &lt;td>ワンルーム&lt;/td>
 &lt;td>6.6&lt;/td>
+&lt;td>5.5&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1K/1DK&lt;/td>
 &lt;td>8.7&lt;/td>
+&lt;td>5.5&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1LDK/2K/2DK&lt;/td>
 &lt;td>16.7&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2LDK/3K/3DK&lt;/td>
-&lt;td>23.8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3LDK/4K～&lt;/td>
-&lt;td>31.3&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="名古屋駅中村区の平均家賃">名古屋駅（中村区）の平均家賃&lt;/h2>
-&lt;p>&lt;a href="https://gyazo.com/57688bb701f5771bdcefe60529ed821c">&lt;img src="https://i.gyazo.com/57688bb701f5771bdcefe60529ed821c.png" alt="愛知県の家賃相場">&lt;/a>&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>間取り&lt;/th>
-&lt;th>平均家賃（万円）&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>ワンルーム&lt;/td>
-&lt;td>5.5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1K/1DK&lt;/td>
-&lt;td>5.5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1LDK/2K/2DK&lt;/td>
 &lt;td>8.1&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2LDK/3K/3DK&lt;/td>
+&lt;td>23.8&lt;/td>
 &lt;td>10.2&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3LDK/4K～&lt;/td>
+&lt;td>31.3&lt;/td>
 &lt;td>11.9&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;h1 id="出典となるsumoのキャプチャ">出典となるSUMOのキャプチャ&lt;/h1>
+&lt;h2 id="東京駅千代田区の平均家賃">東京駅（千代田区）の平均家賃&lt;/h2>
+&lt;p>&lt;a href="https://gyazo.com/b12b47b61574f6f732b3ab4168c769df">&lt;img src="https://i.gyazo.com/b12b47b61574f6f732b3ab4168c769df.png" alt="東京都の家賃相場">&lt;/a>&lt;/p>
+&lt;h2 id="名古屋駅中村区の平均家賃">名古屋駅（中村区）の平均家賃&lt;/h2>
+&lt;p>&lt;a href="https://gyazo.com/57688bb701f5771bdcefe60529ed821c">&lt;img src="https://i.gyazo.com/57688bb701f5771bdcefe60529ed821c.png" alt="愛知県の家賃相場">&lt;/a>&lt;/p>
 &lt;h1 id="雑感">雑感&lt;/h1>
 &lt;p>東京高いな。とくに広くなったときの家賃の上がり幅がきつい。&lt;br>
 東京が高い理由はおそらく東京は土地の価格が高すぎるから。&lt;br>
