@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 02 Dec 2021 08:01:11 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>東京と名古屋の家賃を比較する</title><link>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</link><pubDate>Thu, 02 Dec 2021 08:01:11 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 05 Dec 2021 12:49:18 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Create_go_project</title><link>https://ryosukeYamazaki.github.io/posts/create_go_project/</link><pubDate>Sun, 05 Dec 2021 12:49:18 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/create_go_project/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+&lt;p>Go の新規プロジェクト作成方法&lt;/p>
+&lt;h1 id="go-mod-init">go mod init&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&amp;gt; &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#a6e22e">mod&lt;/span> &lt;span style="color:#a6e22e">init&lt;/span> &lt;span style="color:#a6e22e">github&lt;/span>.&lt;span style="color:#a6e22e">com&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">ryosukeYamazaki&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">facebook_go_sdk_sample&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすると &lt;code>go.mod&lt;/code> が生成されて、moduleとして認識される。&lt;/p>
+&lt;h1 id="git-init">git init&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git init
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="moduleの追加">moduleの追加&lt;/h1>
+&lt;p>module 以下で go get を実行する&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">go get https://github.com/huandu/facebook
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすることで &lt;code>go.mod&lt;/code> にmoduleが追加される。&lt;/p>
+&lt;h1 id="hello-world">hello world&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello world\n&amp;#34;&lt;/span>)
+}
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="参考文献">参考文献&lt;/h1>
+&lt;p>&lt;a href="https://zenn.dev/nobonobo/articles/4fb018a24f9ee9">https://zenn.dev/nobonobo/articles/4fb018a24f9ee9&lt;/a>&lt;/p></description></item><item><title>東京と名古屋の家賃を比較する</title><link>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</link><pubDate>Thu, 02 Dec 2021 08:01:11 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
 &lt;p>東京と名古屋の家賃を比較する。&lt;/p>
 &lt;h1 id="統計情報">統計情報&lt;/h1>
 &lt;p>だいたい正しいでしょってことでSUMOの情報を使う。&lt;br>
