@@ -131,6 +131,7 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;p>実際に物価指数を見てみましょう。&lt;/p>
 &lt;p>&lt;a href="https://gyazo.com/18a24be6d65fb43bc6a9dc219adea5e6">&lt;img src="https://i.gyazo.com/18a24be6d65fb43bc6a9dc219adea5e6.png" alt="2007年の物価指数のグラフ">&lt;/a>&lt;br>
 これは&lt;a href="https://www.stat.go.jp/data/zenbutu/2007/pdf/gaiyo_si.pdf">2007年の物価指数&lt;/a>の抜粋です。&lt;/p>
+&lt;p>多くの地方で東京と比べても10%程度しか変わらないことがわかります。&lt;/p>
 &lt;p>実際に地方に移住してみた私の感覚としても、確かに物価という点では東京都それほど差がないように思います。&lt;br>
 また、家賃自体は大幅に下がりますが、代わりに車購入費用がかかります。&lt;br>
 この車購入の費用と家賃減少分が大体同じくらいです。&lt;br>
@@ -226,6 +227,9 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 &lt;/tbody>
 &lt;/table>
 &lt;p>（リンクが作れなかったので調査時のスナップショットになります。すみません。）&lt;/p>
+&lt;p>しかし、おそらくこれを読んでいるあなたの想定より企業があると思います。&lt;br>
+名古屋に関しては&lt;a href="https://ctyo.hatenablog.com/entry/2020_nagoya_it_map">2020年初春 名古屋IT界隈な地図をざっくり描いてみた&lt;/a>を参考にしてみてください。&lt;br>
+名古屋駅周辺にはたくさんのWeb企業のオフィスが存在します。&lt;/p>
 &lt;h2 id="リモートで働く仕事">リモートで働く仕事&lt;/h2>
 &lt;p>移住先では職場の人間とは会わず、リモートで働く場合はどうでしょうか。&lt;/p>
 &lt;p>これもとても多いわけではないです。&lt;br>
@@ -245,11 +249,17 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 このような企業群はリモートのメリットとオフラインのメリットの組み合わせて開発をしています。&lt;/p>
 &lt;p>個人としてはこのような仕事スタイルが一番好みです。&lt;br>
 というのも、実装するときには個人で集中する事ができるし、設計やチームビルディングなどはオフラインでコミュニケーションすることができるからです。&lt;/p>
-&lt;p>とはいえ、このような仕事環境を見つけるのは、人力で情報収集するしかない状態です。&lt;/p>
-&lt;p>ここで、愛知県の状況を推測してみます。&lt;br>
-地方でオフィスを持っている求人が数百です。&lt;br>
-ということは、どんなに多くでも数十レベルでしかないのではないかと想像します。&lt;/p>
-&lt;h1 id="結局今は">結局今は？&lt;/h1></description></item><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
+&lt;p>とはいえ、このような仕事スタイルで仕事ができる企業はないのが現状です。&lt;br>
+このような仕事環境を見つけるのは、人力で情報収集するしかない状態と思われます。&lt;/p>
+&lt;h1 id="結局地方移住はアリなのか">結局、地方移住はアリなのか？&lt;/h1>
+&lt;p>アリだと思います。&lt;/p>
+&lt;p>地方では人が少ないが故に第一人者になれる仕事の機会がそこらに転がっています。&lt;br>
+また、住環境、子育て環境も向上します。&lt;/p>
+&lt;p>私はこれらが魅力的に見えています。&lt;br>
+ぜひ検討してみて、面白そうであれば地方移住検討してみてください。&lt;/p>
+&lt;p>もし話が聞きたければ、以下のMeetyでお話することもできます。&lt;br>
+&lt;a href="https://meety.net/matches/gqBbmjmhFerm">https://meety.net/matches/gqBbmjmhFerm&lt;/a>&lt;/p>
+&lt;p>是非検討してみてください&lt;/p></description></item><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
 &lt;p>名古屋と東京の求人数を比較する。&lt;/p>
 &lt;h1 id="求人数の比較媒体">求人数の比較媒体&lt;/h1>
 &lt;p>比較にはGreenを使う。&lt;/p>
