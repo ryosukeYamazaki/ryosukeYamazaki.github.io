@@ -84,8 +84,8 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;li>何を理由にして地方に移住するのがよいのか？&lt;/li>
 &lt;li>生活コストはどうなのか？&lt;/li>
 &lt;li>住環境はどうか？&lt;/li>
+&lt;li>子育て環境はどうか？&lt;/li>
 &lt;li>職環境はどうか？&lt;/li>
-&lt;li>人間関係はどうか？&lt;/li>
 &lt;/ul>
 &lt;h1 id="この話の対象読者">この話の対象読者&lt;/h1>
 &lt;p>私はWebアプリケーションのソフトウェアエンジニアです。&lt;br>
@@ -110,27 +110,61 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;p>これに関しては東京で手に入れることができません。&lt;br>
 実際に親のサポートを得ながらの子育ては大変楽になります。&lt;br>
 両方の親には頭が上がらない状況です。&lt;/p>
-&lt;h1 id="生活コストは東京と大差がつかない">生活コストは東京と大差がつかない&lt;/h1>
-&lt;p>立憲地方に移住すると家賃が安くなって生活コストが大幅に削減されると勘違いしがちです。&lt;br>
-しかし、生活コストは東京と大差がない地方がほとんどです&lt;/p>
-&lt;p>そのため、生活コストを理由に移住することはおすすめしないです。&lt;br>
-実は生活コストは東京と大差がつくことは少ないです。&lt;/p>
-&lt;p>生活の物価指数を見てみるとその違いが良く分かると思います。&lt;/p>
-&lt;p>&lt;strong>物価指数を書いてみる&lt;/strong>&lt;/p>
-&lt;p>実際に地方に移住してみた私の感覚からすると、確かに生活コストにはそれほど差がないように思います。&lt;br>
-というのも地方に移住するためには車が必須のところも多いからです。&lt;/p>
-&lt;p>確かに家賃は下がります。しかし、物価はそれほど変わらないです。&lt;br>
-また、車両の費用が上乗せされることによって、生活コストはトントンになると思います。&lt;br>
-車購入の費用と家賃減少分が大体同じくらいになります。&lt;/p>
+&lt;h1 id="地方に行っても生活コストは大して変わらない">地方に行っても生活コストは大して変わらない&lt;/h1>
+&lt;p>地方に移住すると家賃が安くなって生活コストが大幅に削減されると勘違いしがちです。&lt;br>
+しかし、生活コストは東京と大差がない地方がほとんどです&lt;br>
+そのため、生活コストを理由に移住することはおすすめしないです。&lt;/p>
+&lt;p>実際に物価指数を見てみましょう。&lt;/p>
+&lt;p>&lt;a href="https://gyazo.com/18a24be6d65fb43bc6a9dc219adea5e6">&lt;img src="https://i.gyazo.com/18a24be6d65fb43bc6a9dc219adea5e6.png" alt="2007年の物価指数のグラフ">&lt;/a>&lt;br>
+これは&lt;a href="https://www.stat.go.jp/data/zenbutu/2007/pdf/gaiyo_si.pdf">2007年の物価指数&lt;/a>の抜粋です。&lt;/p>
+&lt;p>実際に地方に移住してみた私の感覚としても、確かに物価という点では東京都それほど差がないように思います。&lt;br>
+また、家賃自体は大幅に下がりますが、代わりに車購入費用がかかります。&lt;br>
+この車購入の費用と家賃減少分が大体同じくらいです。&lt;br>
+その結果、生活コストはトントンになるイメージです。&lt;/p>
 &lt;p>これらのことから生活コストが下がるということを理由にして地方に移住するのは得策でないと言えるでしょう。&lt;/p>
 &lt;h1 id="住環境は大幅に改善します">住環境は大幅に改善します。&lt;/h1>
-&lt;p>部屋は広くなるし、家賃は下がります。&lt;br>
-前のセクションでも話した通り家賃は大幅に下がります。&lt;/p>
-&lt;p>家賃について東京と愛知を比べてみます。&lt;/p>
-&lt;p>&lt;strong>家賃相場について書く&lt;/strong>&lt;/p>
+&lt;p>部屋は広くなるし、家賃は下がります。その結果住環境は大幅に改善します。&lt;/p>
+&lt;p>一例として家賃について東京と愛知を比べてみます。&lt;br>
+SUUMOで代表地点として千代田区（東京駅がある）と、中村区（名古屋駅がある）地点を比較します。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>間取り&lt;/th>
+&lt;th>&lt;a href="https://suumo.jp/chintai/tokyo/sc_chiyoda/">東京の平均家賃（万円）&lt;/a>&lt;/th>
+&lt;th>[愛知県の平均家賃（万円）] (&lt;a href="https://suumo.jp/chintai/aichi/sc_nagoyashinakamura/">https://suumo.jp/chintai/aichi/sc_nagoyashinakamura/&lt;/a>)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>ワンルーム&lt;/td>
+&lt;td>6.6&lt;/td>
+&lt;td>5.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1K/1DK&lt;/td>
+&lt;td>8.7&lt;/td>
+&lt;td>5.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1LDK/2K/2DK&lt;/td>
+&lt;td>16.7&lt;/td>
+&lt;td>8.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2LDK/3K/3DK&lt;/td>
+&lt;td>23.8&lt;/td>
+&lt;td>10.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3LDK/4K～&lt;/td>
+&lt;td>31.3&lt;/td>
+&lt;td>11.9&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;p>同じ広さであれば、半分程度になる価格帯が多いです。&lt;br>
 また、広くなったときに家賃の上がり幅が小さくなります。&lt;/p>
-&lt;p>ここから考えると、家賃は下がり、広くなることが言えると思います。&lt;/p>
+&lt;h1 id="子育て環境は地方が有利">子育て環境は地方が有利&lt;/h1>
 &lt;h1 id="仕事事情">仕事事情&lt;/h1>
 &lt;p>地方での仕事は探すことはことはできる。&lt;br>
 しかし、東京で仕事を探すよりは難易度が高いと思います。&lt;/p>
@@ -167,8 +201,6 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;p>ここで、愛知県の状況を推測してみます。&lt;br>
 地方でオフィスを持っている求人が数百です。&lt;br>
 ということは、どんなに多くでも数十レベルでしかないのではないかと想像します。&lt;/p>
-&lt;h1 id="人間関係は">人間関係は？&lt;/h1>
-&lt;p>これに関してはプライベートな人間関係と仕事上の人間関係に関して&lt;/p>
 &lt;h1 id="結局今は">結局今は？&lt;/h1></description></item><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
 &lt;p>名古屋と東京の求人数を比較する。&lt;/p>
 &lt;h1 id="求人数の比較媒体">求人数の比較媒体&lt;/h1>
