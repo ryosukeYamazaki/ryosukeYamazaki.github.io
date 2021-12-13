@@ -126,12 +126,13 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;p>部屋は広くなるし、家賃は下がります。その結果住環境は大幅に改善します。&lt;/p>
 &lt;p>一例として家賃について東京と愛知を比べてみます。&lt;br>
 SUUMOで代表地点として千代田区（東京駅がある）と、中村区（名古屋駅がある）地点を比較します。&lt;/p>
+&lt;p>| 間取り | &amp;gt; | 平均家賃（万円）|&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th>間取り&lt;/th>
-&lt;th>&lt;a href="https://suumo.jp/chintai/tokyo/sc_chiyoda/">東京の平均家賃（万円）&lt;/a>&lt;/th>
-&lt;th>&lt;a href="https://suumo.jp/chintai/aichi/sc_nagoyashinakamura/">愛知県の平均家賃（万円）&lt;/a>&lt;/th>
+&lt;th>^&lt;/th>
+&lt;th>&lt;a href="https://suumo.jp/chintai/tokyo/sc_chiyoda/">東京都&lt;/a>&lt;/th>
+&lt;th>&lt;a href="https://suumo.jp/chintai/aichi/sc_nagoyashinakamura/">愛知県&lt;/a>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
