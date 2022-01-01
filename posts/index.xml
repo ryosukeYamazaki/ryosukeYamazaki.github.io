@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 05 Dec 2021 12:49:18 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Goプロジェクトの作り方</title><link>https://ryosukeYamazaki.github.io/posts/create_go_project/</link><pubDate>Sun, 05 Dec 2021 12:49:18 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/create_go_project/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 01 Jan 2022 13:19:16 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ITのプロダクトを商品の売りやすさについての考察</title><link>https://ryosukeYamazaki.github.io/posts/sell_it_product/</link><pubDate>Sat, 01 Jan 2022 13:19:16 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/sell_it_product/</guid><description>&lt;h1 id="商品の売りやすさ">商品の売りやすさ&lt;/h1>
+&lt;p>有形 &amp;gt; 無形 のほうが売りやすい。&lt;br>
+しかし、大体のIT商品は無形ということになる。&lt;/p>
+&lt;p>でも、ITの商品の中でも売りやすいものと、売りづらいものがある。&lt;br>
+商品の形をしていればしているほど、売りやすい。&lt;/p>
+&lt;p>例えば、アプリになっていれば、それはそれ単体で売りやすい。&lt;/p>
+&lt;h1 id="無形の商品">無形の商品&lt;/h1>
+&lt;p>無形の商品の究極系はコンサルとか、コーチングとかだと思う。&lt;/p>
+&lt;p>コンサルとかコーチングとかは無形のものなのは明らか。&lt;br>
+なので、これを売っていくのは営業経験とブランドがものを言う世界。&lt;/p>
+&lt;p>これを個人が売っていくというのは難しい。&lt;/p>
+&lt;h1 id="個人が商品を売る">個人が商品を売る&lt;/h1>
+&lt;p>個人が商品を売る、しかも無名の新人が商品を売るときは、メリットが明らかなものを売るのが良い。&lt;/p>
+&lt;p>これは商品の説明が難しくないし、ブランドも必要ない。&lt;br>
+しかも、多くの人が買ってくれる可能性がある。&lt;/p>
+&lt;h1 id="売りづらい商品は">売りづらい商品は？&lt;/h1>
+&lt;p>メリットが説明しづらいものは売りづらい。&lt;br>
+手に入れるための説明が必要だったり、良い気分になるというのは売りづらい。&lt;/p></description></item><item><title>Goプロジェクトの作り方</title><link>https://ryosukeYamazaki.github.io/posts/create_go_project/</link><pubDate>Sun, 05 Dec 2021 12:49:18 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/create_go_project/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
 &lt;p>Go の新規プロジェクト作成方法&lt;/p>
 &lt;h1 id="go-mod-init">go mod init&lt;/h1>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&amp;gt; &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#a6e22e">mod&lt;/span> &lt;span style="color:#a6e22e">init&lt;/span> &lt;span style="color:#a6e22e">github&lt;/span>.&lt;span style="color:#a6e22e">com&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">ryosukeYamazaki&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">facebook_go_sdk_sample&lt;/span>
