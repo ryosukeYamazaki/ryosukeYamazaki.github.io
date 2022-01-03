@@ -10,17 +10,7 @@
 <link rel=apple-touch-icon-precomposed href=https://ryosukeYamazaki.github.io/favicon.png>
 <link rel=stylesheet href=https://ryosukeYamazaki.github.io/css/style.min.ab02d2df51071203f51108ad8a9964cbc82622570d3e8d2bd5da1b0c7d12566c.css integrity="sha256-qwLS31EHEgP1EQitiplky8gmIlcNPo0r1dobDH0SVmw=">
 <meta property="og:title" content="Aliasを使って Git の頻出コマンドを効率化する">
-<meta property="og:description" content="これ何？ gitコマンドは省略できる。
-例えば、
-git status を
-g st のように。
-開発していると git コマンドは大量につかう。
-そのため、省略することで作業を効率化したい。
-今回、使用する alias の機能は2種類。
- bash の alias git の alias  git のAliasコマンド git の aliasは .gitconfig に追記することで設定できる。
-git status を
-git st のようにしたい場合は、下記の箇所に追記する。
-[credential] helper = store [user] name = ryosukeYamazaki email = ryamazaki@c-fo.com [filter &#34;lfs&#34;] clean = git-lfs clean %f smudge = git-lfs smudge %f required = true [url &#34;ssh://git@github.com&#34;] insteadOf = git://git@github.com [url &#34;ssh://git@github.com&#34;] insteadOf = https://github.">
+<meta property="og:description" content="これ何？ gitコマンドは省略できる。 例えば、 git status を g st のように。 開発していると git コマンドは大量につかう。 そのため、省略することで作業を効率化したい。 今回、使用する alias の機能は2種類。 bash の alias git の alias git のAliasコマンド git の aliasは .gitconfig に追記することで設定できる。 git status を git st のようにし">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://ryosukeYamazaki.github.io/posts/git-gh-alias/"><meta property="og:image" content="https://ryosukeYamazaki.github.io/images/moai.png"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2020-12-14T12:49:03+09:00">
@@ -28,17 +18,7 @@ git st のようにしたい場合は、下記の箇所に追記する。
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://ryosukeYamazaki.github.io/images/moai.png">
 <meta name=twitter:title content="Aliasを使って Git の頻出コマンドを効率化する">
-<meta name=twitter:description content="これ何？ gitコマンドは省略できる。
-例えば、
-git status を
-g st のように。
-開発していると git コマンドは大量につかう。
-そのため、省略することで作業を効率化したい。
-今回、使用する alias の機能は2種類。
- bash の alias git の alias  git のAliasコマンド git の aliasは .gitconfig に追記することで設定できる。
-git status を
-git st のようにしたい場合は、下記の箇所に追記する。
-[credential] helper = store [user] name = ryosukeYamazaki email = ryamazaki@c-fo.com [filter &#34;lfs&#34;] clean = git-lfs clean %f smudge = git-lfs smudge %f required = true [url &#34;ssh://git@github.com&#34;] insteadOf = git://git@github.com [url &#34;ssh://git@github.com&#34;] insteadOf = https://github.">
+<meta name=twitter:description content="これ何？ gitコマンドは省略できる。 例えば、 git status を g st のように。 開発していると git コマンドは大量につかう。 そのため、省略することで作業を効率化したい。 今回、使用する alias の機能は2種類。 bash の alias git の alias git のAliasコマンド git の aliasは .gitconfig に追記することで設定できる。 git status を git st のようにし">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-TZB8933TSH','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
 </head>
