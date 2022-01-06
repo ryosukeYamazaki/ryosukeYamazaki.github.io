@@ -1,44 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 01 Jan 2022 13:19:16 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ITのプロダクトを商品の売りやすさについての考察</title><link>https://ryosukeYamazaki.github.io/posts/sell_it_product/</link><pubDate>Sat, 01 Jan 2022 13:19:16 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/sell_it_product/</guid><description>&lt;h1 id="商品の売りやすさ">商品の売りやすさ&lt;/h1>
-&lt;p>有形 &amp;gt; 無形 のほうが売りやすい。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 01 Jan 2022 13:19:16 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ITのプロダクトを商品の売りやすさについての考察</title><link>https://ryosukeYamazaki.github.io/posts/sell_it_product/</link><pubDate>Sat, 01 Jan 2022 13:19:16 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/sell_it_product/</guid><description>&lt;h1 id="商品の売りやすさ">商品の売りやすさ
+&lt;span>&lt;a href="#%e5%95%86%e5%93%81%e3%81%ae%e5%a3%b2%e3%82%8a%e3%82%84%e3%81%99%e3%81%95">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>有形 &amp;gt; 無形 のほうが売りやすい。&lt;br>
 しかし、大体のIT商品は無形ということになる。&lt;/p>
 &lt;p>でも、ITの商品の中でも売りやすいものと、売りづらいものがある。&lt;br>
 商品の形をしていればしているほど、売りやすい。&lt;/p>
 &lt;p>例えば、アプリになっていれば、それはそれ単体で売りやすい。&lt;/p>
-&lt;h1 id="無形の商品">無形の商品&lt;/h1>
-&lt;p>無形の商品の究極系はコンサルとか、コーチングとかだと思う。&lt;/p>
+&lt;h1 id="無形の商品">無形の商品
+&lt;span>&lt;a href="#%e7%84%a1%e5%bd%a2%e3%81%ae%e5%95%86%e5%93%81">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>無形の商品の究極系はコンサルとか、コーチングとかだと思う。&lt;/p>
 &lt;p>コンサルとかコーチングとかは無形のものなのは明らか。&lt;br>
 なので、これを売っていくのは営業経験とブランドがものを言う世界。&lt;/p>
 &lt;p>これを個人が売っていくというのは難しい。&lt;/p>
-&lt;h1 id="個人が商品を売る">個人が商品を売る&lt;/h1>
-&lt;p>個人が商品を売る、しかも無名の新人が商品を売るときは、メリットが明らかなものを売るのが良い。&lt;/p>
+&lt;h1 id="個人が商品を売る">個人が商品を売る
+&lt;span>&lt;a href="#%e5%80%8b%e4%ba%ba%e3%81%8c%e5%95%86%e5%93%81%e3%82%92%e5%a3%b2%e3%82%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>個人が商品を売る、しかも無名の新人が商品を売るときは、メリットが明らかなものを売るのが良い。&lt;/p>
 &lt;p>これは商品の説明が難しくないし、ブランドも必要ない。&lt;br>
 しかも、多くの人が買ってくれる可能性がある。&lt;/p>
-&lt;h1 id="売りづらい商品は">売りづらい商品は？&lt;/h1>
-&lt;p>メリットが説明しづらいものは売りづらい。&lt;br>
-手に入れるための説明が必要だったり、良い気分になるというのは売りづらい。&lt;/p></description></item><item><title>Goプロジェクトの作り方</title><link>https://ryosukeYamazaki.github.io/posts/create_go_project/</link><pubDate>Sun, 05 Dec 2021 12:49:18 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/create_go_project/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
-&lt;p>Go の新規プロジェクト作成方法&lt;/p>
-&lt;h1 id="go-mod-init">go mod init&lt;/h1>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&amp;gt; &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#a6e22e">mod&lt;/span> &lt;span style="color:#a6e22e">init&lt;/span> &lt;span style="color:#a6e22e">github&lt;/span>.&lt;span style="color:#a6e22e">com&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">ryosukeYamazaki&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">facebook_go_sdk_sample&lt;/span>
+&lt;h1 id="売りづらい商品は">売りづらい商品は？
+&lt;span>&lt;a href="#%e5%a3%b2%e3%82%8a%e3%81%a5%e3%82%89%e3%81%84%e5%95%86%e5%93%81%e3%81%af">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>メリットが説明しづらいものは売りづらい。&lt;br>
+手に入れるための説明が必要だったり、良い気分になるというのは売りづらい。&lt;/p></description></item><item><title>Goプロジェクトの作り方</title><link>https://ryosukeYamazaki.github.io/posts/create_go_project/</link><pubDate>Sun, 05 Dec 2021 12:49:18 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/create_go_project/</guid><description>&lt;h1 id="これ何">これ何？
+&lt;span>&lt;a href="#%e3%81%93%e3%82%8c%e4%bd%95">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>Go の新規プロジェクト作成方法&lt;/p>
+&lt;h1 id="go-mod-init">go mod init
+&lt;span>&lt;a href="#go-mod-init">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&amp;gt; &lt;span style="color:#66d9ef">go&lt;/span> &lt;span style="color:#a6e22e">mod&lt;/span> &lt;span style="color:#a6e22e">init&lt;/span> &lt;span style="color:#a6e22e">github&lt;/span>.&lt;span style="color:#a6e22e">com&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">ryosukeYamazaki&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">facebook_go_sdk_sample&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすると &lt;code>go.mod&lt;/code> が生成されて、moduleとして認識される。&lt;/p>
-&lt;h1 id="git-init">git init&lt;/h1>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git init
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="moduleの追加">moduleの追加&lt;/h1>
-&lt;p>module 以下で go get を実行する&lt;/p>
+&lt;h1 id="git-init">git init
+&lt;span>&lt;a href="#git-init">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git init
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="moduleの追加">moduleの追加
+&lt;span>&lt;a href="#module%e3%81%ae%e8%bf%bd%e5%8a%a0">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>module 以下で go get を実行する&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">go get https://github.com/huandu/facebook
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすることで &lt;code>go.mod&lt;/code> にmoduleが追加される。&lt;/p>
-&lt;h1 id="hello-world">hello world&lt;/h1>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;h1 id="hello-world">hello world
+&lt;span>&lt;a href="#hello-world">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#f92672">import&lt;/span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
 &lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
 &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Printf&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;Hello world\n&amp;#34;&lt;/span>)
 }
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="参考文献">参考文献&lt;/h1>
-&lt;p>&lt;a href="https://zenn.dev/nobonobo/articles/4fb018a24f9ee9">https://zenn.dev/nobonobo/articles/4fb018a24f9ee9&lt;/a>&lt;/p></description></item><item><title>東京と名古屋の家賃を比較する</title><link>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</link><pubDate>Thu, 02 Dec 2021 08:01:11 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
-&lt;p>東京と名古屋の家賃を比較する。&lt;/p>
-&lt;h1 id="統計情報">統計情報&lt;/h1>
-&lt;p>だいたい正しいでしょってことでSUMOの情報を使う。&lt;br>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="参考文献">参考文献
+&lt;span>&lt;a href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://zenn.dev/nobonobo/articles/4fb018a24f9ee9">https://zenn.dev/nobonobo/articles/4fb018a24f9ee9&lt;/a>&lt;/p></description></item><item><title>東京と名古屋の家賃を比較する</title><link>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</link><pubDate>Thu, 02 Dec 2021 08:01:11 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/compare_rents_in_tokyo_and_nagoya/</guid><description>&lt;h1 id="これ何">これ何？
+&lt;span>&lt;a href="#%e3%81%93%e3%82%8c%e4%bd%95">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>東京と名古屋の家賃を比較する。&lt;/p>
+&lt;h1 id="統計情報">統計情報
+&lt;span>&lt;a href="#%e7%b5%b1%e8%a8%88%e6%83%85%e5%a0%b1">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>だいたい正しいでしょってことでSUMOの情報を使う。&lt;br>
 代表地点として東京駅（千代田区）があるところと、名古屋駅（中村区）がある地点を比較する。&lt;/p>
-&lt;h2 id="比較表">比較表&lt;/h2>
-&lt;table>
+&lt;h2 id="比較表">比較表
+&lt;span>&lt;a href="#%e6%af%94%e8%bc%83%e8%a1%a8">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>間取り&lt;/th>
@@ -74,13 +87,17 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h1 id="出典となるsumoのキャプチャ">出典となるSUMOのキャプチャ&lt;/h1>
-&lt;h2 id="東京駅千代田区の平均家賃">東京駅（千代田区）の平均家賃&lt;/h2>
-&lt;p>&lt;a href="https://gyazo.com/b12b47b61574f6f732b3ab4168c769df">&lt;img src="https://i.gyazo.com/b12b47b61574f6f732b3ab4168c769df.png" alt="東京都の家賃相場">&lt;/a>&lt;/p>
-&lt;h2 id="名古屋駅中村区の平均家賃">名古屋駅（中村区）の平均家賃&lt;/h2>
-&lt;p>&lt;a href="https://gyazo.com/57688bb701f5771bdcefe60529ed821c">&lt;img src="https://i.gyazo.com/57688bb701f5771bdcefe60529ed821c.png" alt="愛知県の家賃相場">&lt;/a>&lt;/p>
-&lt;h1 id="雑感">雑感&lt;/h1>
-&lt;p>東京高いな。とくに広くなったときの家賃の上がり幅がきつい。&lt;br>
+&lt;h1 id="出典となるsumoのキャプチャ">出典となるSUMOのキャプチャ
+&lt;span>&lt;a href="#%e5%87%ba%e5%85%b8%e3%81%a8%e3%81%aa%e3%82%8bsumo%e3%81%ae%e3%82%ad%e3%83%a3%e3%83%97%e3%83%81%e3%83%a3">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;h2 id="東京駅千代田区の平均家賃">東京駅（千代田区）の平均家賃
+&lt;span>&lt;a href="#%e6%9d%b1%e4%ba%ac%e9%a7%85%e5%8d%83%e4%bb%a3%e7%94%b0%e5%8c%ba%e3%81%ae%e5%b9%b3%e5%9d%87%e5%ae%b6%e8%b3%83">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>&lt;a href="https://gyazo.com/b12b47b61574f6f732b3ab4168c769df">&lt;img src="https://i.gyazo.com/b12b47b61574f6f732b3ab4168c769df.png" alt="東京都の家賃相場">&lt;/a>&lt;/p>
+&lt;h2 id="名古屋駅中村区の平均家賃">名古屋駅（中村区）の平均家賃
+&lt;span>&lt;a href="#%e5%90%8d%e5%8f%a4%e5%b1%8b%e9%a7%85%e4%b8%ad%e6%9d%91%e5%8c%ba%e3%81%ae%e5%b9%b3%e5%9d%87%e5%ae%b6%e8%b3%83">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>&lt;a href="https://gyazo.com/57688bb701f5771bdcefe60529ed821c">&lt;img src="https://i.gyazo.com/57688bb701f5771bdcefe60529ed821c.png" alt="愛知県の家賃相場">&lt;/a>&lt;/p>
+&lt;h1 id="雑感">雑感
+&lt;span>&lt;a href="#%e9%9b%91%e6%84%9f">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>東京高いな。とくに広くなったときの家賃の上がり幅がきつい。&lt;br>
 東京が高い理由はおそらく東京は土地の価格が高すぎるから。&lt;br>
 そのため、部屋がでかくなればなるほど価格の土地代が分が大きくなり高くなる。&lt;/p>
 &lt;p>一方名古屋は土地の値段がそこまで高くない。&lt;br>
@@ -104,8 +121,9 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;li>子育て環境はどうか？&lt;/li>
 &lt;li>職環境はどうか？&lt;/li>
 &lt;/ul>
-&lt;h1 id="この話の対象読者">この話の対象読者&lt;/h1>
-&lt;p>私はWebアプリケーションのソフトウェアエンジニアです。&lt;br>
+&lt;h1 id="この話の対象読者">この話の対象読者
+&lt;span>&lt;a href="#%e3%81%93%e3%81%ae%e8%a9%b1%e3%81%ae%e5%af%be%e8%b1%a1%e8%aa%ad%e8%80%85">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>私はWebアプリケーションのソフトウェアエンジニアです。&lt;br>
 そのため、似たような境遇な人が対象読者になります。&lt;/p>
 &lt;p>具体的には以下のようなな人を対象にしています。&lt;/p>
 &lt;ul>
@@ -114,8 +132,9 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;li>現在東京に在住&lt;/li>
 &lt;li>地方移住を検討している&lt;/li>
 &lt;/ul>
-&lt;h1 id="何を理由にして地方に移住するのがよいのか">何を理由にして地方に移住するのがよいのか？&lt;/h1>
-&lt;p>地方に移住を決心する時は東京では得られないものを理由にすることが良いかと思います。&lt;/p>
+&lt;h1 id="何を理由にして地方に移住するのがよいのか">何を理由にして地方に移住するのがよいのか？
+&lt;span>&lt;a href="#%e4%bd%95%e3%82%92%e7%90%86%e7%94%b1%e3%81%ab%e3%81%97%e3%81%a6%e5%9c%b0%e6%96%b9%e3%81%ab%e7%a7%bb%e4%bd%8f%e3%81%99%e3%82%8b%e3%81%ae%e3%81%8c%e3%82%88%e3%81%84%e3%81%ae%e3%81%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>地方に移住を決心する時は東京では得られないものを理由にすることが良いかと思います。&lt;/p>
 &lt;p>地方に限らず移住には環境が変わるストレスは多くあります。&lt;br>
 そのため、ストレスが多い環境で心が折れてしまうこともあります。&lt;/p>
 &lt;p>このときのために、東京で手に入らない何かを理由にしておくと良いと思います。&lt;/p>
@@ -125,24 +144,28 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 &lt;li>【家族】子育てを実家の近くで行う&lt;/li>
 &lt;li>【住環境】広い家に住みたい&lt;/li>
 &lt;/ul>
-&lt;h2 id="仕事様々な経験を積みたい">【仕事】様々な経験を積みたい&lt;/h2>
-&lt;p>東京と違い地方では人の換えがききづらいです。そのため、多能工的な人が育ちやすい環境です。&lt;/p>
+&lt;h2 id="仕事様々な経験を積みたい">【仕事】様々な経験を積みたい
+&lt;span>&lt;a href="#%e4%bb%95%e4%ba%8b%e6%a7%98%e3%80%85%e3%81%aa%e7%b5%8c%e9%a8%93%e3%82%92%e7%a9%8d%e3%81%bf%e3%81%9f%e3%81%84">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>東京と違い地方では人の換えがききづらいです。そのため、多能工的な人が育ちやすい環境です。&lt;/p>
 &lt;p>これは人口が少ないから起きる現象です。&lt;br>
 人口が多いと一つの職種を極めるという仕事の仕方をする人種を組み合わせて仕事ができます。&lt;br>
 しかし、人が少ないと一人の人間が様々な仕事をする必要が出てきます。&lt;br>
 結果として多能工的な仕事スタイルの人間が育ちやすい環境になります。&lt;/p>
 &lt;p>様々な経験をしなければならないという状況を強制的に作るのに地方はもってこいな環境です。&lt;/p>
-&lt;h2 id="家族子育てを実家の近くで行う">【家族】子育てを実家の近くで行う&lt;/h2>
-&lt;p>家族が地方にいる場合は大きな理由になります。&lt;/p>
+&lt;h2 id="家族子育てを実家の近くで行う">【家族】子育てを実家の近くで行う
+&lt;span>&lt;a href="#%e5%ae%b6%e6%97%8f%e5%ad%90%e8%82%b2%e3%81%a6%e3%82%92%e5%ae%9f%e5%ae%b6%e3%81%ae%e8%bf%91%e3%81%8f%e3%81%a7%e8%a1%8c%e3%81%86">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>家族が地方にいる場合は大きな理由になります。&lt;/p>
 &lt;p>私も実際に実家のサポートを得ながら子育てをしたいと思い、移住を決断しました。&lt;br>
 子育てに関して実家のサポートを得られるのは大変楽です。&lt;/p>
 &lt;p>2人で子育てするのと、祖父母が加わり4～6人で子育てするのでは負担が全く異なります。&lt;/p>
 &lt;p>実際にサポートしてもらっている身としては祖父母には頭が上がりません。&lt;/p>
-&lt;h2 id="住環境広い家に住みたい">【住環境】広い家に住みたい&lt;/h2>
-&lt;p>後述しますが、住環境は大変豊かになります。&lt;br>
+&lt;h2 id="住環境広い家に住みたい">【住環境】広い家に住みたい
+&lt;span>&lt;a href="#%e4%bd%8f%e7%92%b0%e5%a2%83%e5%ba%83%e3%81%84%e5%ae%b6%e3%81%ab%e4%bd%8f%e3%81%bf%e3%81%9f%e3%81%84">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>後述しますが、住環境は大変豊かになります。&lt;br>
 これは東京では手に入れることが難しく、大きな理由になります。&lt;/p>
-&lt;h1 id="生活コストは大して変わらない">生活コストは大して変わらない&lt;/h1>
-&lt;p>地方に移住すると家賃が安くなって生活コストが大幅に削減されると勘違いしがちです。&lt;br>
+&lt;h1 id="生活コストは大して変わらない">生活コストは大して変わらない
+&lt;span>&lt;a href="#%e7%94%9f%e6%b4%bb%e3%82%b3%e3%82%b9%e3%83%88%e3%81%af%e5%a4%a7%e3%81%97%e3%81%a6%e5%a4%89%e3%82%8f%e3%82%89%e3%81%aa%e3%81%84">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>地方に移住すると家賃が安くなって生活コストが大幅に削減されると勘違いしがちです。&lt;br>
 しかし、生活コストは東京と大差がない地方がほとんどです&lt;br>
 そのため、生活コストを理由に移住することはおすすめしないです。&lt;/p>
 &lt;p>実際に物価指数を見てみましょう。&lt;/p>
@@ -154,8 +177,9 @@ freeeも2020年3月からフルリモート体制に移行しています。&lt;
 この車購入の費用と家賃減少分が大体同じくらいです。&lt;br>
 その結果、生活コストはトントンになるイメージです。&lt;/p>
 &lt;p>これらのことから生活コストが下がるということを理由にして地方に移住するのは得策でないと言えるでしょう。&lt;/p>
-&lt;h1 id="住環境は大幅に改善します">住環境は大幅に改善します。&lt;/h1>
-&lt;p>部屋は広くなるし、家賃は下がります。その結果住環境は大幅に改善します。&lt;/p>
+&lt;h1 id="住環境は大幅に改善します">住環境は大幅に改善します。
+&lt;span>&lt;a href="#%e4%bd%8f%e7%92%b0%e5%a2%83%e3%81%af%e5%a4%a7%e5%b9%85%e3%81%ab%e6%94%b9%e5%96%84%e3%81%97%e3%81%be%e3%81%99">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>部屋は広くなるし、家賃は下がります。その結果住環境は大幅に改善します。&lt;/p>
 &lt;p>一例として家賃について東京と愛知を比べてみます。&lt;br>
 SUUMOで代表地点として千代田区（東京駅がある）と、中村区（名古屋駅がある）地点を比較します。&lt;/p>
 &lt;table>
@@ -196,8 +220,9 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 &lt;/table>
 &lt;p>同じ広さであれば、半分程度になる価格帯が多いです。&lt;br>
 また、広くなったときに家賃の上がり幅が小さくなります。&lt;/p>
-&lt;h1 id="保育園の待機児童は0人です">保育園の待機児童は0人です。&lt;/h1>
-&lt;p>子育て環境の中でも特に保育園事情は地方のほうが格段に有利です。&lt;/p>
+&lt;h1 id="保育園の待機児童は0人です">保育園の待機児童は0人です。
+&lt;span>&lt;a href="#%e4%bf%9d%e8%82%b2%e5%9c%92%e3%81%ae%e5%be%85%e6%a9%9f%e5%85%90%e7%ab%a5%e3%81%af0%e4%ba%ba%e3%81%a7%e3%81%99">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>子育て環境の中でも特に保育園事情は地方のほうが格段に有利です。&lt;/p>
 &lt;p>&lt;a href="https://gyazo.com/186f5830ba37aade374dbb0a5d390ba8">&lt;img src="https://i.gyazo.com/186f5830ba37aade374dbb0a5d390ba8.png" alt="名古屋市の待機児童を表すグラフ">&lt;/a>&lt;br>
 これは&lt;a href="https://www.city.nagoya.jp/somu/page/0000135407.html">名古屋市&lt;/a>の例です。&lt;/p>
 &lt;p>実際に保育園の申し込みをしてみていますが、共働きであれば保育園は第一希望の保育園に入れる見込みだと思います。&lt;/p>
@@ -206,8 +231,9 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 この予約もセンターが空いている時間であれば、ほとんど即日の予約が可能でした。&lt;/p>
 &lt;p>子供がもう少し大きくなったタイミングでの教育機関の数などは東京のほうが当然多いと思います。&lt;br>
 しかし、小さな子供を育てるにあたっての支援は地方の方が得やすいと言えると思います。&lt;/p>
-&lt;h1 id="仕事事情">仕事事情&lt;/h1>
-&lt;p>地方での仕事は探すことはことはできる。&lt;br>
+&lt;h1 id="仕事事情">仕事事情
+&lt;span>&lt;a href="#%e4%bb%95%e4%ba%8b%e4%ba%8b%e6%83%85">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>地方での仕事は探すことはことはできる。&lt;br>
 しかし、東京で仕事を探すよりは難易度が高いと思います。&lt;/p>
 &lt;p>仕事事情に関しては&lt;/p>
 &lt;ul>
@@ -216,8 +242,9 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 &lt;li>上記のハイブリッドな仕事&lt;/li>
 &lt;/ul>
 &lt;p>について考えます。&lt;/p>
-&lt;h2 id="オフィスがある仕事">オフィスがある仕事&lt;/h2>
-&lt;p>まず、地方がオフィスがある仕事に関しては東京と比較して少なくなります。&lt;br>
+&lt;h2 id="オフィスがある仕事">オフィスがある仕事
+&lt;span>&lt;a href="#%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%81%8c%e3%81%82%e3%82%8b%e4%bb%95%e4%ba%8b">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>まず、地方がオフィスがある仕事に関しては東京と比較して少なくなります。&lt;br>
 その件数は求人サイトを検索するとすぐに調べることができます。&lt;/p>
 &lt;p>今回は私が移住した愛知県の例を示します。&lt;br>
 愛知県の例だと求人の数は大体東京の1/10以下になります。&lt;/p>
@@ -247,8 +274,9 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 &lt;p>しかし、おそらくこれを読んでいるあなたの想定より企業があると思います。&lt;br>
 名古屋に関しては&lt;a href="https://ctyo.hatenablog.com/entry/2020_nagoya_it_map">2020年初春 名古屋IT界隈な地図をざっくり描いてみた&lt;/a>を参考にしてみてください。&lt;br>
 名古屋駅周辺にはたくさんのWeb企業のオフィスが存在します。&lt;/p>
-&lt;h2 id="リモートで働く仕事">リモートで働く仕事&lt;/h2>
-&lt;p>移住先では職場の人間とは会わず、リモートで働く場合はどうでしょうか。&lt;/p>
+&lt;h2 id="リモートで働く仕事">リモートで働く仕事
+&lt;span>&lt;a href="#%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e3%81%a7%e5%83%8d%e3%81%8f%e4%bb%95%e4%ba%8b">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>移住先では職場の人間とは会わず、リモートで働く場合はどうでしょうか。&lt;/p>
 &lt;p>これもとても多いわけではないです。&lt;br>
 &lt;a href="https://remogu.jp/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%82%B5%E3%82%A4%E3%83%89%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E6%B1%82%E4%BA%BA-%E3%83%95%E3%83%AB-%E3%82%B7%E3%83%95%E3%83%88-%E3%83%8F%E3%82%A4%E3%83%96%E3%83%AA%E3%83%83%E3%83%89%E5%9E%8B%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88/">リモート専門の求人サイト&lt;/a>を調べてみます。&lt;/p>
 &lt;p>すると190件と出てきます。&lt;br>
@@ -257,8 +285,9 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 それにより、個人的にはリモートでの働き方は一気に普及したように感じました。&lt;br>
 また、大手のWeb企業もフルリモートでの働き方の求人を出したというニュースもありました。&lt;br>
 しかし、実際の求人を調べてみると、それほど件数でないことがわかります。&lt;/p>
-&lt;h2 id="リモートリアルのハイブリッドな仕事">リモート・リアルのハイブリッドな仕事&lt;/h2>
-&lt;p>リモート・リアルでのハイブリッドな仕事環境はどうでしょうか？&lt;/p>
+&lt;h2 id="リモートリアルのハイブリッドな仕事">リモート・リアルのハイブリッドな仕事
+&lt;span>&lt;a href="#%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e3%83%aa%e3%82%a2%e3%83%ab%e3%81%ae%e3%83%8f%e3%82%a4%e3%83%96%e3%83%aa%e3%83%83%e3%83%89%e3%81%aa%e4%bb%95%e4%ba%8b">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>リモート・リアルでのハイブリッドな仕事環境はどうでしょうか？&lt;/p>
 &lt;p>この仕事環境は東京でもまだまだ一般的ではないです。&lt;br>
 そのため、地方では余計にレアです。&lt;br>
 これについては、数字で出てくるもの少なく、調べることが難しいです。&lt;/p>
@@ -268,48 +297,61 @@ SUUMOで代表地点として千代田区（東京駅がある）と、中村区
 というのも、実装するときには個人で集中する事ができるし、設計やチームビルディングなどはオフラインでコミュニケーションすることができるからです。&lt;/p>
 &lt;p>とはいえ、このような仕事スタイルで仕事ができる企業はないのが現状です。&lt;br>
 このような仕事環境を見つけるのは、人力で情報収集するしかない状態と思われます。&lt;/p>
-&lt;h1 id="結局地方移住はアリなのか">結局、地方移住はアリなのか？&lt;/h1>
-&lt;p>アリだと思います。&lt;/p>
+&lt;h1 id="結局地方移住はアリなのか">結局、地方移住はアリなのか？
+&lt;span>&lt;a href="#%e7%b5%90%e5%b1%80%e5%9c%b0%e6%96%b9%e7%a7%bb%e4%bd%8f%e3%81%af%e3%82%a2%e3%83%aa%e3%81%aa%e3%81%ae%e3%81%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>アリだと思います。&lt;/p>
 &lt;p>地方では人が少ないが故に第一人者になれる仕事の機会がそこらに転がっています。&lt;br>
 また、住環境、子育て環境も向上します。&lt;/p>
 &lt;p>私はこれらが魅力的に見えています。&lt;br>
 ぜひ検討してみて、面白そうであれば地方移住検討してみてください。&lt;/p>
 &lt;p>もし話が聞きたければ、以下のMeetyでお話することもできます。&lt;br>
 &lt;a href="https://meety.net/matches/gqBbmjmhFerm">https://meety.net/matches/gqBbmjmhFerm&lt;/a>&lt;/p>
-&lt;p>是非検討してみてください&lt;/p></description></item><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
-&lt;p>名古屋と東京の求人数を比較する。&lt;/p>
-&lt;h1 id="求人数の比較媒体">求人数の比較媒体&lt;/h1>
-&lt;p>比較にはGreenを使う。&lt;/p>
+&lt;p>是非検討してみてください&lt;/p></description></item><item><title>東海3県と東京のWeb系求人比較</title><link>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</link><pubDate>Sun, 28 Nov 2021 09:26:32 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/finding_job_at_nagoya/</guid><description>&lt;h1 id="これなに">これなに？
+&lt;span>&lt;a href="#%e3%81%93%e3%82%8c%e3%81%aa%e3%81%ab">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>名古屋と東京の求人数を比較する。&lt;/p>
+&lt;h1 id="求人数の比較媒体">求人数の比較媒体
+&lt;span>&lt;a href="#%e6%b1%82%e4%ba%ba%e6%95%b0%e3%81%ae%e6%af%94%e8%bc%83%e5%aa%92%e4%bd%93">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>比較にはGreenを使う。&lt;/p>
 &lt;p>他にもリクナビ、マイナビが候補に有った。&lt;br>
 でも、両者ともにワイの周りでこの２つに求人媒体使っている人見たことない。&lt;br>
 Greenは見たことある。&lt;/p>
 &lt;p>あと、他の媒体は小さそう。&lt;/p>
-&lt;h1 id="名古屋">名古屋&lt;/h1>
-&lt;ul>
+&lt;h1 id="名古屋">名古屋
+&lt;span>&lt;a href="#%e5%90%8d%e5%8f%a4%e5%b1%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;ul>
 &lt;li>227企業&lt;/li>
 &lt;li>549求人&lt;br>
 &lt;a href="https://gyazo.com/424c9015e919fcd25e80cc9e15c1a692">&lt;img src="https://i.gyazo.com/424c9015e919fcd25e80cc9e15c1a692.png" alt="名古屋のWeb企業求人数検索結果">&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h1 id="東京">東京&lt;/h1>
-&lt;ul>
+&lt;h1 id="東京">東京
+&lt;span>&lt;a href="#%e6%9d%b1%e4%ba%ac">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;ul>
 &lt;li>2138企業&lt;/li>
 &lt;li>6641求人&lt;br>
 &lt;a href="https://gyazo.com/3118f98cba1676935d97fa01516d1c34">&lt;img src="https://i.gyazo.com/3118f98cba1676935d97fa01516d1c34.png" alt="東京のWeb企業求人数検索結果">&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
-&lt;p>このブログのdeploy方法&lt;/p>
-&lt;h1 id="やること">やること&lt;/h1>
-&lt;p>これを実行する&lt;/p>
+&lt;/ul></description></item><item><title>このブログのdeploy方法</title><link>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</link><pubDate>Sun, 28 Nov 2021 08:23:06 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/deploy_my_blog/</guid><description>&lt;h1 id="これ何">これ何？
+&lt;span>&lt;a href="#%e3%81%93%e3%82%8c%e4%bd%95">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>このブログのdeploy方法&lt;/p>
+&lt;h1 id="やること">やること
+&lt;span>&lt;a href="#%e3%82%84%e3%82%8b%e3%81%93%e3%81%a8">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>これを実行する&lt;/p>
 &lt;pre tabindex="0">&lt;code>make deploy
-&lt;/code>&lt;/pre></description></item><item><title>.hugo_build.lock って何さ？</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？&lt;/h1>
-&lt;p>&lt;code>.hugo_build.lock&lt;/code> ファイルって何？&lt;/p>
-&lt;h1 id="build用のロックファイル">build用のロックファイル。&lt;/h1>
-&lt;p>&lt;a href="https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417">https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417&lt;/a>&lt;/p>
-&lt;h1 id="その他">その他&lt;/h1>
-&lt;p>gitのdiffで出てくると面倒なので &lt;code>.gitignoer&lt;/code> に追加することにする&lt;/p></description></item><item><title>hugoの記事の作り方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-create-command/</link><pubDate>Sun, 21 Nov 2021 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-create-command/</guid><description>&lt;h1 id="作り方のコマンド">作り方のコマンド&lt;/h1>
-&lt;pre tabindex="0">&lt;code>$ hugo new posts/hello.md
-&lt;/code>&lt;/pre>&lt;h1 id="リファレンス">リファレンス&lt;/h1>
-&lt;p>&lt;a href="https://gohugo.io/getting-started/quick-start/#step-4-add-some-content">公式のquickstart&lt;/a>のドキュメント。&lt;/p></description></item><item><title>Aliasを使って Git の頻出コマンドを効率化する</title><link>https://ryosukeYamazaki.github.io/posts/git-gh-alias/</link><pubDate>Mon, 14 Dec 2020 12:49:03 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/git-gh-alias/</guid><description>&lt;h1 id="これ何">これ何？&lt;/h1>
-&lt;p>gitコマンドは省略できる。&lt;/p>
+&lt;/code>&lt;/pre></description></item><item><title>.hugo_build.lock って何さ？</title><link>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</link><pubDate>Sun, 28 Nov 2021 08:12:55 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo_build_lock/</guid><description>&lt;h1 id="これなに">これなに？
+&lt;span>&lt;a href="#%e3%81%93%e3%82%8c%e3%81%aa%e3%81%ab">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>&lt;code>.hugo_build.lock&lt;/code> ファイルって何？&lt;/p>
+&lt;h1 id="build用のロックファイル">build用のロックファイル。
+&lt;span>&lt;a href="#build%e7%94%a8%e3%81%ae%e3%83%ad%e3%83%83%e3%82%af%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417">https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417&lt;/a>&lt;/p>
+&lt;h1 id="その他">その他
+&lt;span>&lt;a href="#%e3%81%9d%e3%81%ae%e4%bb%96">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>gitのdiffで出てくると面倒なので &lt;code>.gitignoer&lt;/code> に追加することにする&lt;/p></description></item><item><title>hugoの記事の作り方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-create-command/</link><pubDate>Sun, 21 Nov 2021 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-create-command/</guid><description>&lt;h1 id="作り方のコマンド">作り方のコマンド
+&lt;span>&lt;a href="#%e4%bd%9c%e3%82%8a%e6%96%b9%e3%81%ae%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;pre tabindex="0">&lt;code>$ hugo new posts/hello.md
+&lt;/code>&lt;/pre>&lt;h1 id="リファレンス">リファレンス
+&lt;span>&lt;a href="#%e3%83%aa%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://gohugo.io/getting-started/quick-start/#step-4-add-some-content">公式のquickstart&lt;/a>のドキュメント。&lt;/p></description></item><item><title>Aliasを使って Git の頻出コマンドを効率化する</title><link>https://ryosukeYamazaki.github.io/posts/git-gh-alias/</link><pubDate>Mon, 14 Dec 2020 12:49:03 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/git-gh-alias/</guid><description>&lt;h1 id="これ何">これ何？
+&lt;span>&lt;a href="#%e3%81%93%e3%82%8c%e4%bd%95">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>gitコマンドは省略できる。&lt;/p>
 &lt;p>例えば、&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
@@ -322,8 +364,9 @@ Greenは見たことある。&lt;/p>
 &lt;li>bash の alias&lt;/li>
 &lt;li>git の alias&lt;/li>
 &lt;/ul>
-&lt;h1 id="git-のaliasコマンド">git のAliasコマンド&lt;/h1>
-&lt;p>git の aliasは &lt;code>.gitconfig&lt;/code> に追記することで設定できる。&lt;/p>
+&lt;h1 id="git-のaliasコマンド">git のAliasコマンド
+&lt;span>&lt;a href="#git-%e3%81%aealias%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>git の aliasは &lt;code>.gitconfig&lt;/code> に追記することで設定できる。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git st
@@ -346,8 +389,9 @@ editor = emacs -nw
 excludesfile = ~/.gitignore
 [alias] # 追記する箇所はここ。 # 追記する箇所はここ。
 st = status # 追記する箇所はここ。
-&lt;/code>&lt;/pre>&lt;h1 id="bash-のalias">bash のalias&lt;/h1>
-&lt;p>bash の aliasは &lt;code>.bashrc&lt;/code> or &lt;code>.bash_profile&lt;/code> に追記することで設定できる。&lt;/p>
+&lt;/code>&lt;/pre>&lt;h1 id="bash-のalias">bash のalias
+&lt;span>&lt;a href="#bash-%e3%81%aealias">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>bash の aliasは &lt;code>.bashrc&lt;/code> or &lt;code>.bash_profile&lt;/code> に追記することで設定できる。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g status
@@ -355,30 +399,38 @@ st = status # 追記する箇所はここ。
 &lt;pre tabindex="0">&lt;code>alias g='git'
 &lt;/code>&lt;/pre>&lt;p>最後にshellの再起動しておけば反映される。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">exec $SHELL -l
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="git-bashの-aliasを組み合わせ">git, bashの aliasを組み合わせ&lt;/h1>
-&lt;p>両者を組み合わせると&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="git-bashの-aliasを組み合わせ">git, bashの aliasを組み合わせ
+&lt;span>&lt;a href="#git-bash%e3%81%ae-alias%e3%82%92%e7%b5%84%e3%81%bf%e5%90%88%e3%82%8f%e3%81%9b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>両者を組み合わせると&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git status
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>を&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">g st
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>のように使うことができる。&lt;br>
-便利。&lt;/p></description></item><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする&lt;/h1>
-&lt;p>&lt;a href="https://gohugo.io/getting-started/installing/#fetch-from-github">https://gohugo.io/getting-started/installing/#fetch-from-github&lt;/a> にある通り。&lt;br>
+便利。&lt;/p></description></item><item><title>hugoの始め方</title><link>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</link><pubDate>Sun, 08 Nov 2020 19:45:36 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/hugo-no-hajimekata/</guid><description>&lt;h1 id="installする">installする
+&lt;span>&lt;a href="#install%e3%81%99%e3%82%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://gohugo.io/getting-started/installing/#fetch-from-github">https://gohugo.io/getting-started/installing/#fetch-from-github&lt;/a> にある通り。&lt;br>
 ソースからbuildする&lt;/p>
-&lt;h1 id="テーマをダウンロードする">テーマをダウンロードする&lt;/h1>
-&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>&lt;br>
+&lt;h1 id="テーマをダウンロードする">テーマをダウンロードする
+&lt;span>&lt;a href="#%e3%83%86%e3%83%bc%e3%83%9e%e3%82%92%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89%e3%81%99%e3%82%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>&lt;a href="https://github.com/Mitrichius/hugo-theme-anubis">https://github.com/Mitrichius/hugo-theme-anubis&lt;/a>&lt;br>
 私はこのテーマをダウンロードした。&lt;/p>
-&lt;h1 id="yamlファイルをtomlに変換する">yamlファイルをtomlに変換する&lt;/h1>
-&lt;p>上のテーマはyamlで設定ファイルの例が書かれていた。&lt;br>
+&lt;h1 id="yamlファイルをtomlに変換する">yamlファイルをtomlに変換する
+&lt;span>&lt;a href="#yaml%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92toml%e3%81%ab%e5%a4%89%e6%8f%9b%e3%81%99%e3%82%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>上のテーマはyamlで設定ファイルの例が書かれていた。&lt;br>
 そのままではquickstartのtomlと競合する。&lt;br>
 そのため、下記のサイトを利用して、yamlをtomlに変換する&lt;/p>
 &lt;p>&lt;a href="https://www.convertsimple.com/convert-yaml-to-toml/">https://www.convertsimple.com/convert-yaml-to-toml/&lt;/a>&lt;/p>
-&lt;h1 id="開発サーバを起動する">開発サーバを起動する&lt;/h1>
-&lt;h2 id="localで書いている場合">localで書いている場合&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">hugo server -D
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="リモートホストで起動している場合">リモートホストで起動している場合&lt;/h2>
-&lt;p>リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。&lt;br>
+&lt;h1 id="開発サーバを起動する">開発サーバを起動する
+&lt;span>&lt;a href="#%e9%96%8b%e7%99%ba%e3%82%b5%e3%83%bc%e3%83%90%e3%82%92%e8%b5%b7%e5%8b%95%e3%81%99%e3%82%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;h2 id="localで書いている場合">localで書いている場合
+&lt;span>&lt;a href="#local%e3%81%a7%e6%9b%b8%e3%81%84%e3%81%a6%e3%81%84%e3%82%8b%e5%a0%b4%e5%90%88">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="リモートホストで起動している場合">リモートホストで起動している場合
+&lt;span>&lt;a href="#%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e3%83%9b%e3%82%b9%e3%83%88%e3%81%a7%e8%b5%b7%e5%8b%95%e3%81%97%e3%81%a6%e3%81%84%e3%82%8b%e5%a0%b4%e5%90%88">#&lt;/a>&lt;/span>
+&lt;/h2>&lt;p>リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。&lt;br>
 そのため、下記のコマンドで立ち上げる。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">hugo server -v -D --bind 0.0.0.0 -p &lt;span style="color:#ae81ff">8888&lt;/span> --baseUrl&lt;span style="color:#f92672">=&lt;/span>hogehoge.net
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="きれいに立ち上がる">きれいに立ち上がる&lt;/h1>
-&lt;p>お疲れさまでした。&lt;br>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="きれいに立ち上がる">きれいに立ち上がる
+&lt;span>&lt;a href="#%e3%81%8d%e3%82%8c%e3%81%84%e3%81%ab%e7%ab%8b%e3%81%a1%e4%b8%8a%e3%81%8c%e3%82%8b">#&lt;/a>&lt;/span>
+&lt;/h1>&lt;p>お疲れさまでした。&lt;br>
 めちゃ簡単に立ち上がった。&lt;/p></description></item></channel></rss>
