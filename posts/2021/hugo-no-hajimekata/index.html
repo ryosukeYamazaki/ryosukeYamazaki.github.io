@@ -1,115 +1,14 @@
-<!doctype html><html lang=ja data-theme>
-<head>
-<meta charset=utf-8>
-<meta name=HandheldFriendly content="True">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=referrer content="no-referrer-when-downgrade">
-<title>hugoの始め方 - moaiの走り書き</title>
-<meta name=description content="installする # https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。 ソースからbuildする テーマをダウンロードする # https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。 yamlファイルをtomlに変換する # 上のテーマはyamlで設定ファイルの例が書かれていた。 そのままではquickstartのtomlと競合する。 そのため、下記">
-<link rel=icon type=image/x-icon href=https://ryosukeYamazaki.github.io/favicon.ico>
-<link rel=apple-touch-icon-precomposed href=https://ryosukeYamazaki.github.io/favicon.png>
-<link rel=stylesheet href=https://ryosukeYamazaki.github.io/css/style.min.a11b8916e7fc33d397d735329bc39b452eba5901a3c1a497fadc20be86f83e54.css integrity="sha256-oRuJFuf8M9OX1zUym8ObRS66WQGjwaSX+twgvob4PlQ=">
-<meta property="og:title" content="hugoの始め方">
-<meta property="og:description" content="installする # https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。 ソースからbuildする テーマをダウンロードする # https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。 yamlファイルをtomlに変換する # 上のテーマはyamlで設定ファイルの例が書かれていた。 そのままではquickstartのtomlと競合する。 そのため、下記">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://ryosukeYamazaki.github.io/posts/2021/hugo-no-hajimekata/"><meta property="og:image" content="https://ryosukeYamazaki.github.io/images/moai.png"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2020-11-08T19:45:36+09:00">
-<meta property="article:modified_time" content="2020-11-08T19:45:36+09:00">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://ryosukeYamazaki.github.io/images/moai.png">
-<meta name=twitter:title content="hugoの始め方">
-<meta name=twitter:description content="installする # https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。 ソースからbuildする テーマをダウンロードする # https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。 yamlファイルをtomlに変換する # 上のテーマはyamlで設定ファイルの例が書かれていた。 そのままではquickstartのtomlと競合する。 そのため、下記">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TZB8933TSH"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-TZB8933TSH',{anonymize_ip:!1})}</script>
-</head>
-<body>
-<a class=skip-main href=#main>Skip to main content</a>
-<div class=container>
-<header class=common-header>
-<div class=header-top>
-<h1 class=site-title>
-<a href=/>moaiの走り書き</a>
-</h1>
-<ul class=social-icons>
-</ul>
-</div>
-<nav>
-<a href=https://ryosukeYamazaki.github.io/posts/ title=Archive>moaiの走り書き</a>
-</nav>
-</header>
-<main id=main tabindex=-1>
-<article class="post h-entry">
-<div class=post-header>
-<header>
-<h1 class="p-name post-title">hugoの始め方</h1>
-</header>
-</div>
-<div class="content e-content">
-<h1 id=installする>installする
-<span><a href=#install%e3%81%99%e3%82%8b>#</a></span>
-</h1><p><a href=https://gohugo.io/getting-started/installing/#fetch-from-github>https://gohugo.io/getting-started/installing/#fetch-from-github</a> にある通り。<br>
-ソースからbuildする</p>
-<h1 id=テーマをダウンロードする>テーマをダウンロードする
-<span><a href=#%e3%83%86%e3%83%bc%e3%83%9e%e3%82%92%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89%e3%81%99%e3%82%8b>#</a></span>
-</h1><p><a href=https://github.com/Mitrichius/hugo-theme-anubis>https://github.com/Mitrichius/hugo-theme-anubis</a><br>
-私はこのテーマをダウンロードした。</p>
-<h1 id=yamlファイルをtomlに変換する>yamlファイルをtomlに変換する
-<span><a href=#yaml%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92toml%e3%81%ab%e5%a4%89%e6%8f%9b%e3%81%99%e3%82%8b>#</a></span>
-</h1><p>上のテーマはyamlで設定ファイルの例が書かれていた。<br>
-そのままではquickstartのtomlと競合する。<br>
-そのため、下記のサイトを利用して、yamlをtomlに変換する</p>
-<p><a href=https://www.convertsimple.com/convert-yaml-to-toml/>https://www.convertsimple.com/convert-yaml-to-toml/</a></p>
-<h1 id=開発サーバを起動する>開発サーバを起動する
-<span><a href=#%e9%96%8b%e7%99%ba%e3%82%b5%e3%83%bc%e3%83%90%e3%82%92%e8%b5%b7%e5%8b%95%e3%81%99%e3%82%8b>#</a></span>
-</h1><h2 id=localで書いている場合>localで書いている場合
-<span><a href=#local%e3%81%a7%e6%9b%b8%e3%81%84%e3%81%a6%e3%81%84%e3%82%8b%e5%a0%b4%e5%90%88>#</a></span>
-</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>hugo server -D
-</code></pre></div><h2 id=リモートホストで起動している場合>リモートホストで起動している場合
-<span><a href=#%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e3%83%9b%e3%82%b9%e3%83%88%e3%81%a7%e8%b5%b7%e5%8b%95%e3%81%97%e3%81%a6%e3%81%84%e3%82%8b%e5%a0%b4%e5%90%88>#</a></span>
-</h2><p>リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。<br>
-そのため、下記のコマンドで立ち上げる。</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>hugo server -v -D --bind 0.0.0.0 -p <span style=color:#ae81ff>8888</span> --baseUrl<span style=color:#f92672>=</span>hogehoge.net
-</code></pre></div><h1 id=きれいに立ち上がる>きれいに立ち上がる
-<span><a href=#%e3%81%8d%e3%82%8c%e3%81%84%e3%81%ab%e7%ab%8b%e3%81%a1%e4%b8%8a%e3%81%8c%e3%82%8b>#</a></span>
-</h1><p>お疲れさまでした。<br>
-めちゃ簡単に立ち上がった。</p>
-</div>
-<div class=post-info>
-<div class="post-date dt-published">2020-11-08</div>
-<a class="post-hidden-url u-url" href=https://ryosukeYamazaki.github.io/posts/2021/hugo-no-hajimekata/>https://ryosukeYamazaki.github.io/posts/2021/hugo-no-hajimekata/</a>
-<a href=https://ryosukeYamazaki.github.io class="p-name p-author post-hidden-author h-card" rel=me>moai</a>
-<div class=post-taxonomies>
-</div>
-</div>
-</article>
-<div class="pagination post-pagination">
-<div class="left pagination-item">
-<a href=/posts/2021/git-gh-alias/>Aliasを使って Git の頻出コマンドを効率化する</a>
-</div>
-<div class="right pagination-item disabled">
-</div>
-</div>
-<div id=disqus_thread></div>
-<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//https-ryosukeyamazaki-github-io.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</main>
-<footer class=common-footer>
-<div class=common-footer-bottom>
-<div class=copyright>
-<p>© moai, 2022<br>
-Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, theme <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.<br>
-</p>
-</div>
-<button class=theme-switcher>
-Dark theme
-</button>
-<script>const STORAGE_KEY='user-color-scheme',defaultTheme="auto";let currentTheme,switchButton,autoDefinedScheme=window.matchMedia('(prefers-color-scheme: dark)');const autoChangeScheme=a=>{currentTheme=a.matches?'dark':'light',document.documentElement.setAttribute('data-theme',currentTheme),changeButtonText()};document.addEventListener('DOMContentLoaded',function(){switchButton=document.querySelector('.theme-switcher'),currentTheme=detectCurrentScheme(),currentTheme=='dark'&&document.documentElement.setAttribute('data-theme','dark'),currentTheme=='auto'&&(autoChangeScheme(autoDefinedScheme),autoDefinedScheme.addListener(autoChangeScheme)),changeButtonText(),switchButton.addEventListener('click',switchTheme,!1)});function detectCurrentScheme(){return localStorage.getItem(STORAGE_KEY)?localStorage.getItem(STORAGE_KEY):defaultTheme?defaultTheme:window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light':'light'}function changeButtonText(){switchButton.textContent=currentTheme=='dark'?"Light theme":"Dark theme"}function switchTheme(a){currentTheme=='dark'?(localStorage.setItem(STORAGE_KEY,'light'),document.documentElement.setAttribute('data-theme','light'),currentTheme='light'):(localStorage.setItem(STORAGE_KEY,'dark'),document.documentElement.setAttribute('data-theme','dark'),currentTheme='dark'),changeButtonText()}</script>
-</div>
-<p class="h-card vcard">
-<a href=https://ryosukeYamazaki.github.io class="p-name u-url url fn" rel=me>moai</a>
-</p>
-</footer>
-</div>
-</body>
-</html>
+<!doctype html><html lang=ja data-theme><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer-when-downgrade"><title>hugoの始め方 - moaiの走り書き</title><meta name=description content="installする https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。 ソースからbuildする テーマをダウンロードする https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。 yamlファイルをtomlに変換する 上のテーマはyamlで設定ファイルの例が書かれていた。 そのままではquickstartのtomlと競合する。 そのため、下記のサイ"><link rel=icon type=image/x-icon href=https://ryosukeYamazaki.github.io/favicon.ico><link rel=apple-touch-icon-precomposed href=https://ryosukeYamazaki.github.io/favicon.png><style>body{visibility:hidden;opacity:0}</style><noscript><style>body{visibility:visible;opacity:1}</style></noscript><link rel=stylesheet href=https://ryosukeYamazaki.github.io/css/style.min.820a97553922b76999323c1290e76e747bd117e7b9fbcb9599350317e2fc4814.css integrity="sha256-ggqXVTkit2mZMjwSkOdudHvRF+e5+8uVmTUDF+L8SBQ="><script src=https://ryosukeYamazaki.github.io/js/script.min.a65afe903825231554d9b55b073eb144da4ccf2d2823b216dcbc6cc656c9de76.js type=text/javascript integrity="sha256-plr+kDglIxVU2bVbBz6xRNpMzy0oI7IW3LxsxlbJ3nY="></script><meta property="og:title" content="hugoの始め方"><meta property="og:description" content="installする https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。 ソースからbuildする テーマをダウンロードする https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。 yamlファイルをtomlに変換する 上のテーマはyamlで設定ファイルの例が書かれていた。 そのままではquickstartのtomlと競合する。 そのため、下記のサイ"><meta property="og:type" content="article"><meta property="og:url" content="https://ryosukeYamazaki.github.io/posts/2021/hugo-no-hajimekata/"><meta property="og:image" content="https://ryosukeYamazaki.github.io/images/moai.png"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-11-08T19:45:36+09:00"><meta property="article:modified_time" content="2020-11-08T19:45:36+09:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ryosukeYamazaki.github.io/images/moai.png"><meta name=twitter:title content="hugoの始め方"><meta name=twitter:description content="installする https://gohugo.io/getting-started/installing/#fetch-from-github にある通り。 ソースからbuildする テーマをダウンロードする https://github.com/Mitrichius/hugo-theme-anubis 私はこのテーマをダウンロードした。 yamlファイルをtomlに変換する 上のテーマはyamlで設定ファイルの例が書かれていた。 そのままではquickstartのtomlと競合する。 そのため、下記のサイ"><script async src="https://www.googletagmanager.com/gtag/js?id=G-TZB8933TSH"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-TZB8933TSH",{anonymize_ip:!1})}</script></head><body><a class=skip-main href=#main>Skip to main content</a><div class=container><header class=common-header><div class=header-top><h1 class=site-title><a href=/>moaiの走り書き</a></h1><ul class=social-icons></ul></div><nav><a href=https://ryosukeYamazaki.github.io/posts/ title=Archive>moaiの走り書き</a></nav></header><main id=main tabindex=-1><article class="post h-entry"><div class=post-header><header><h1 class="p-name post-title">hugoの始め方</h1></header></div><div class="content e-content"><h1 id=installする>installする
+<span><a href=#install%e3%81%99%e3%82%8b><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h1><p><a href=https://gohugo.io/getting-started/installing/#fetch-from-github>https://gohugo.io/getting-started/installing/#fetch-from-github</a> にある通り。<br>ソースからbuildする</p><h1 id=テーマをダウンロードする>テーマをダウンロードする
+<span><a href=#%e3%83%86%e3%83%bc%e3%83%9e%e3%82%92%e3%83%80%e3%82%a6%e3%83%b3%e3%83%ad%e3%83%bc%e3%83%89%e3%81%99%e3%82%8b><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h1><p><a href=https://github.com/Mitrichius/hugo-theme-anubis>https://github.com/Mitrichius/hugo-theme-anubis</a><br>私はこのテーマをダウンロードした。</p><h1 id=yamlファイルをtomlに変換する>yamlファイルをtomlに変換する
+<span><a href=#yaml%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92toml%e3%81%ab%e5%a4%89%e6%8f%9b%e3%81%99%e3%82%8b><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h1><p>上のテーマはyamlで設定ファイルの例が書かれていた。<br>そのままではquickstartのtomlと競合する。<br>そのため、下記のサイトを利用して、yamlをtomlに変換する</p><p><a href=https://www.convertsimple.com/convert-yaml-to-toml/>https://www.convertsimple.com/convert-yaml-to-toml/</a></p><h1 id=開発サーバを起動する>開発サーバを起動する
+<span><a href=#%e9%96%8b%e7%99%ba%e3%82%b5%e3%83%bc%e3%83%90%e3%82%92%e8%b5%b7%e5%8b%95%e3%81%99%e3%82%8b><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h1><h2 id=localで書いている場合>localで書いている場合
+<span><a href=#local%e3%81%a7%e6%9b%b8%e3%81%84%e3%81%a6%e3%81%84%e3%82%8b%e5%a0%b4%e5%90%88><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>hugo server -D
+</span></span></code></pre></div><h2 id=リモートホストで起動している場合>リモートホストで起動している場合
+<span><a href=#%e3%83%aa%e3%83%a2%e3%83%bc%e3%83%88%e3%83%9b%e3%82%b9%e3%83%88%e3%81%a7%e8%b5%b7%e5%8b%95%e3%81%97%e3%81%a6%e3%81%84%e3%82%8b%e5%a0%b4%e5%90%88><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h2><p>リモートホスト起動している場合、名前解決やcssのダウンロードがうまく行かない。<br>そのため、下記のコマンドで立ち上げる。</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>hugo server -v -D --bind 0.0.0.0 -p <span style=color:#ae81ff>8888</span> --baseUrl<span style=color:#f92672>=</span>hogehoge.net
+</span></span></code></pre></div><h1 id=きれいに立ち上がる>きれいに立ち上がる
+<span><a href=#%e3%81%8d%e3%82%8c%e3%81%84%e3%81%ab%e7%ab%8b%e3%81%a1%e4%b8%8a%e3%81%8c%e3%82%8b><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg></a></span></h1><p>お疲れさまでした。<br>めちゃ簡単に立ち上がった。</p></div><div class=post-info><div class="post-date dt-published">2020-11-08</div><a class="post-hidden-url u-url" href=https://ryosukeYamazaki.github.io/posts/2021/hugo-no-hajimekata/>https://ryosukeYamazaki.github.io/posts/2021/hugo-no-hajimekata/</a>
+<a href=https://ryosukeYamazaki.github.io class="p-name p-author post-hidden-author h-card" rel=me>moai</a><div class=post-taxonomies></div></div></article><div class="pagination post-pagination"><div class="left pagination-item"><a href=/posts/2021/git-gh-alias/>Aliasを使って Git の頻出コマンドを効率化する</a></div><div class="right pagination-item disabled"></div></div><div id=disqus_thread></div><script type=application/javascript>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//https-ryosukeyamazaki-github-io.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></main><footer class=common-footer><div class=common-footer-bottom><div class=copyright><p>© moai, 2022<br>Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, theme <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.<br></p></div><button class=theme-switcher>
+Dark theme</button>
+<script>const STORAGE_KEY="user-color-scheme",defaultTheme="auto";let currentTheme,switchButton,autoDefinedScheme=window.matchMedia("(prefers-color-scheme: dark)");const autoChangeScheme=e=>{currentTheme=e.matches?"dark":"light",document.documentElement.setAttribute("data-theme",currentTheme),changeButtonText()};document.addEventListener("DOMContentLoaded",function(){switchButton=document.querySelector(".theme-switcher"),currentTheme=detectCurrentScheme(),currentTheme=="dark"&&document.documentElement.setAttribute("data-theme","dark"),currentTheme=="auto"&&(autoChangeScheme(autoDefinedScheme),autoDefinedScheme.addListener(autoChangeScheme)),switchButton&&(changeButtonText(),switchButton.addEventListener("click",switchTheme,!1)),showContent()});function detectCurrentScheme(){return localStorage.getItem(STORAGE_KEY)?localStorage.getItem(STORAGE_KEY):defaultTheme?defaultTheme:window.matchMedia?window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light":"light"}function changeButtonText(){switchButton&&(switchButton.textContent=currentTheme=="dark"?"Light theme":"Dark theme")}function switchTheme(){currentTheme=="dark"?(localStorage.setItem(STORAGE_KEY,"light"),document.documentElement.setAttribute("data-theme","light"),currentTheme="light"):(localStorage.setItem(STORAGE_KEY,"dark"),document.documentElement.setAttribute("data-theme","dark"),currentTheme="dark"),changeButtonText()}function showContent(){document.body.style.visibility="visible",document.body.style.opacity=1}</script></div><p class="h-card vcard"><a href=https://ryosukeYamazaki.github.io class="p-name u-url url fn" rel=me>moai</a></p></footer></div></body></html>
