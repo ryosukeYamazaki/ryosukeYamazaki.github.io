@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/tags/golang/</link><description>moaiの走り書き (Golang)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 06 May 2022 16:34:42 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Goの最新バージョンはPPAを登録するのが良い</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</guid><description>&lt;p>&lt;a href="https://github.com/golang/go/wiki/Ubuntu#using-ppa">公式Wiki&lt;/a>に書いてある方法でinstallするのが最新バージョンをインストールするのが便利。&lt;/p>
+&lt;p>いくつか検討したけど、PPAで登録する方法がいいという結論に至った。&lt;/p>
+&lt;p>Go moduleの登場でGoのバージョンは各プロジェクト管理でできるようになった。&lt;br>
+そのため、localのグローバルなGoのversionは最新バージョンだけで良い。&lt;/p>
+&lt;p>Goのバージョンは常に最新に簡単に保ちたい。&lt;br>
+であれば、 &lt;code>apt&lt;/code> でupdateできるほうが良い。&lt;/p>
+&lt;p>そうなってくると &lt;code>apt&lt;/code> で更新できるように公式が案内しているPPAを登録しておくのが今後のバージョン更新に追随できるので楽ちん。&lt;/p></description></item></channel></rss>

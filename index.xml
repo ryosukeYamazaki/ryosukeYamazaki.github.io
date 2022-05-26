@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 06 May 2022 16:34:42 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Goの最新バージョンはPPAを登録するのが良い</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</guid><description>&lt;p>&lt;a href="https://github.com/golang/go/wiki/Ubuntu#using-ppa">公式Wiki&lt;/a>に書いてある方法でinstallするのが最新バージョンをインストールするのが便利。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 06 May 2022 16:34:42 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://ryosukeYamazaki.github.io/about/</link><pubDate>Thu, 26 May 2022 16:12:48 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/about/</guid><description>&lt;h1 id="人物紹介" >人物紹介
+&lt;span>
+&lt;a href="#%e4%ba%ba%e7%89%a9%e7%b4%b9%e4%bb%8b">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>山崎遼介&lt;/li>
+&lt;li>2012から一貫してソフトウェア開発を生業にしている&lt;/li>
+&lt;/ul>
+&lt;h1 id="人に提供できそうなこと" >人に提供できそうなこと
+&lt;span>
+&lt;a href="#%e4%ba%ba%e3%81%ab%e6%8f%90%e4%be%9b%e3%81%a7%e3%81%8d%e3%81%9d%e3%81%86%e3%81%aa%e3%81%93%e3%81%a8">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>ソフトウェア開発に関わる助言&lt;/li>
+&lt;li>SaaSソフトの開発体制についての助言&lt;/li>
+&lt;li>会計・人事労務の制度やソフトの運用方法に関する助言&lt;/li>
+&lt;li>小さいチームを大きくするときに意識するときのコツ&lt;/li>
+&lt;/ul>
+&lt;h1 id="欲しい物" >欲しい物
+&lt;span>
+&lt;a href="#%e6%ac%b2%e3%81%97%e3%81%84%e7%89%a9">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;h1 id="経験したプログラミング言語" >経験したプログラミング言語
+&lt;span>
+&lt;a href="#%e7%b5%8c%e9%a8%93%e3%81%97%e3%81%9f%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0%e8%a8%80%e8%aa%9e">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>Golang&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;li>Typescript&lt;/li>
+&lt;/ul>
+&lt;h1 id="経験したフレームワークライブラリ" >経験したフレームワーク・ライブラリ
+&lt;span>
+&lt;a href="#%e7%b5%8c%e9%a8%93%e3%81%97%e3%81%9f%e3%83%95%e3%83%ac%e3%83%bc%e3%83%a0%e3%83%af%e3%83%bc%e3%82%af%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>Rails&lt;/li>
+&lt;li>Redux&lt;/li>
+&lt;li>Flux&lt;/li>
+&lt;li>Gorm&lt;/li>
+&lt;/ul>
+&lt;h1 id="開発で経験した業務領域" >開発で経験した業務領域
+&lt;span>
+&lt;a href="#%e9%96%8b%e7%99%ba%e3%81%a7%e7%b5%8c%e9%a8%93%e3%81%97%e3%81%9f%e6%a5%ad%e5%8b%99%e9%a0%98%e5%9f%9f">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>保険&lt;/li>
+&lt;li>先物取引&lt;/li>
+&lt;li>人事労務&lt;/li>
+&lt;li>会計&lt;/li>
+&lt;li>工数管理&lt;/li>
+&lt;/ul>
+&lt;h1 id="ソフトスキル" >ソフトスキル
+&lt;span>
+&lt;a href="#%e3%82%bd%e3%83%95%e3%83%88%e3%82%b9%e3%82%ad%e3%83%ab">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>コーチング（資格あり）&lt;/li>
+&lt;li>Agile（CSMを一時期持っていた）&lt;/li>
+&lt;/ul></description></item><item><title>Goの最新バージョンはPPAを登録するのが良い</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</guid><description>&lt;p>&lt;a href="https://github.com/golang/go/wiki/Ubuntu#using-ppa">公式Wiki&lt;/a>に書いてある方法でinstallするのが最新バージョンをインストールするのが便利。&lt;/p>
 &lt;p>いくつか検討したけど、PPAで登録する方法がいいという結論に至った。&lt;/p>
 &lt;p>Go moduleの登場でGoのバージョンは各プロジェクト管理でできるようになった。&lt;br>
 そのため、localのグローバルなGoのversionは最新バージョンだけで良い。&lt;/p>
@@ -36,7 +113,7 @@
 &lt;/h1>&lt;p>プロジェクトごとでバージョンを管理する役割はGoの言語自体に取り込まれている。&lt;br>
 goenvの目的はプロジェクトごとでgoのバージョンを管理することだった。&lt;br>
 すると、Go言語の標準でないgoenvで管理する意味はなくなってくる。&lt;br>
-goenvはもういらないかな。&lt;/p></description></item><item><title>新規記事の作り方</title><link>https://ryosukeYamazaki.github.io/posts/2022/0202/</link><pubDate>Wed, 02 Feb 2022 08:50:49 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0202/</guid><description>&lt;p>めっちゃシンプルにMakefileに記事作成するコマンドを書いた&lt;/p>
+goenvはもういらないかな。&lt;/p></description></item><item><title>hugoで新規記事の作り方</title><link>https://ryosukeYamazaki.github.io/posts/2022/0202/</link><pubDate>Wed, 02 Feb 2022 08:50:49 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0202/</guid><description>&lt;p>めっちゃシンプルにMakefileに記事作成するコマンドを書いた&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>hugo new posts/&lt;span style="color:#e6db74">`&lt;/span>date &lt;span style="color:#e6db74">&amp;#39;+%Y&amp;#39;&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>/&lt;span style="color:#e6db74">`&lt;/span>date &lt;span style="color:#e6db74">&amp;#39;+%m%d&amp;#39;&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>.md
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>ITのプロダクトを商品の売りやすさについての考察</title><link>https://ryosukeYamazaki.github.io/posts/2021/sell_it_product/</link><pubDate>Sat, 01 Jan 2022 13:19:16 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2021/sell_it_product/</guid><description>&lt;h1 id="商品の売りやすさ" >商品の売りやすさ
 &lt;span>

@@ -36,7 +36,7 @@
 &lt;/h1>&lt;p>プロジェクトごとでバージョンを管理する役割はGoの言語自体に取り込まれている。&lt;br>
 goenvの目的はプロジェクトごとでgoのバージョンを管理することだった。&lt;br>
 すると、Go言語の標準でないgoenvで管理する意味はなくなってくる。&lt;br>
-goenvはもういらないかな。&lt;/p></description></item><item><title>新規記事の作り方</title><link>https://ryosukeYamazaki.github.io/posts/2022/0202/</link><pubDate>Wed, 02 Feb 2022 08:50:49 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0202/</guid><description>&lt;p>めっちゃシンプルにMakefileに記事作成するコマンドを書いた&lt;/p>
+goenvはもういらないかな。&lt;/p></description></item><item><title>hugoで新規記事の作り方</title><link>https://ryosukeYamazaki.github.io/posts/2022/0202/</link><pubDate>Wed, 02 Feb 2022 08:50:49 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0202/</guid><description>&lt;p>めっちゃシンプルにMakefileに記事作成するコマンドを書いた&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>hugo new posts/&lt;span style="color:#e6db74">`&lt;/span>date &lt;span style="color:#e6db74">&amp;#39;+%Y&amp;#39;&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>/&lt;span style="color:#e6db74">`&lt;/span>date &lt;span style="color:#e6db74">&amp;#39;+%m%d&amp;#39;&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>.md
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>ITのプロダクトを商品の売りやすさについての考察</title><link>https://ryosukeYamazaki.github.io/posts/2021/sell_it_product/</link><pubDate>Sat, 01 Jan 2022 13:19:16 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2021/sell_it_product/</guid><description>&lt;h1 id="商品の売りやすさ" >商品の売りやすさ
 &lt;span>
