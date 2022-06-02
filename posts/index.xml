@@ -1,10 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 06 May 2022 16:34:42 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Goの最新バージョンはPPAを登録するのが良い</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</guid><description>&lt;p>&lt;a href="https://github.com/golang/go/wiki/Ubuntu#using-ppa">公式Wiki&lt;/a>に書いてある方法でinstallするのが最新バージョンをインストールするのが便利。&lt;/p>
-&lt;p>いくつか検討したけど、PPAで登録する方法がいいという結論に至った。&lt;/p>
-&lt;p>Go moduleの登場でGoのバージョンは各プロジェクト管理でできるようになった。&lt;br>
-そのため、localのグローバルなGoのversionは最新バージョンだけで良い。&lt;/p>
-&lt;p>Goのバージョンは常に最新に簡単に保ちたい。&lt;br>
-であれば、 &lt;code>apt&lt;/code> でupdateできるほうが良い。&lt;/p>
-&lt;p>そうなってくると &lt;code>apt&lt;/code> で更新できるように公式が案内しているPPAを登録しておくのが今後のバージョン更新に追随できるので楽ちん。&lt;/p></description></item><item><title>goenvはもういらない</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506/</link><pubDate>Fri, 06 May 2022 16:20:54 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506/</guid><description>&lt;h1 id="goenvはもういらない" >goenvはもういらない
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/posts/</link><description>moaiの走り書き (Posts)</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 06 May 2022 16:34:42 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Goの最新バージョンは公式からバイナリインストールしてくるのが良い</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506_163442/</guid><description>&lt;h1 id="要は" >要は
+&lt;span>
+&lt;a href="#%e8%a6%81%e3%81%af">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>&lt;a href="https://go.dev/doc/install">https://go.dev/doc/install&lt;/a> にあるとおりに実行する。&lt;br>
+最新バージョンだけで良い。&lt;/li>
+&lt;/ul>
+&lt;h1 id="試したこと" >試したこと
+&lt;span>
+&lt;a href="#%e8%a9%a6%e3%81%97%e3%81%9f%e3%81%93%e3%81%a8">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;ul>
+&lt;li>PPAをつかってインストールする。
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/golang/go/wiki/Ubuntu#using-ppa">公式Wiki&lt;/a>に書いてある方法でinstallを試した。Ubuntuだとうまくいくが、Debianだとうまく行かなかった。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>aptの標準のものを使う。
+&lt;ul>
+&lt;li>versionが古い。最新にしたい場合は厳しい。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>goenv, asdf等を使う。
+&lt;ul>
+&lt;li>Go moduleの登場でGoのバージョンは各プロジェクト管理でできるようになった。そのため、localのグローバルなGoのversionは最新バージョンだけで良い。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h1 id="惜しいなーと思うところ" >惜しいなーと思うところ
+&lt;span>
+&lt;a href="#%e6%83%9c%e3%81%97%e3%81%84%e3%81%aa%e3%83%bc%e3%81%a8%e6%80%9d%e3%81%86%e3%81%a8%e3%81%93%e3%82%8d">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Goのバージョンは常に最新に簡単に保ちたい。そのため、&lt;code>apt&lt;/code> でupdateできるほうが良い。&lt;/p>
+&lt;p>だけど、Debianだと無理らしいので諦め。&lt;br>
+そんなに頻度高くないし。まぁええか。&lt;/p></description></item><item><title>goenvはもういらない</title><link>https://ryosukeYamazaki.github.io/posts/2022/0506/</link><pubDate>Fri, 06 May 2022 16:20:54 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/posts/2022/0506/</guid><description>&lt;h1 id="goenvはもういらない" >goenvはもういらない
 &lt;span>
 &lt;a href="#goenv%e3%81%af%e3%82%82%e3%81%86%e3%81%84%e3%82%89%e3%81%aa%e3%81%84">
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
