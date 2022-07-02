@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/</link><description>Recent content in Home on moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 26 May 2022 16:12:48 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://ryosukeYamazaki.github.io/p/about/</link><pubDate>Thu, 26 May 2022 16:12:48 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/p/about/</guid><description>&lt;h1 id="人物紹介">人物紹介&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on moai商店</title><link>https://ryosukeYamazaki.github.io/</link><description>Recent content in Home on moai商店</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 26 May 2022 16:12:48 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>moaiについて</title><link>https://ryosukeYamazaki.github.io/about/</link><pubDate>Thu, 26 May 2022 16:12:48 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/about/</guid><description>&lt;p>こんにちは。ようこそmoai商店へ。&lt;/p>
+&lt;p>moai商店を運営するmoaiです。&lt;br>
+ここではmoaiはどんな人なのかを説明します。&lt;/p>
+&lt;h1 id="人物紹介">人物紹介&lt;/h1>
 &lt;ul>
-&lt;li>山崎遼介&lt;/li>
-&lt;li>2012から一貫してソフトウェア開発を生業にしている&lt;/li>
+&lt;li>本名：山崎遼介&lt;/li>
+&lt;li>2012年から一貫してソフトウェア開発を生業にしている&lt;/li>
 &lt;/ul>
 &lt;h1 id="人に提供できそうなこと">人に提供できそうなこと&lt;/h1>
 &lt;ul>
@@ -40,7 +43,9 @@
 &lt;ul>
 &lt;li>コーチング（資格あり）&lt;/li>
 &lt;li>Agile（CSMを一時期持っていた）&lt;/li>
-&lt;/ul></description></item><item><title>Goの最新バージョンは公式からバイナリインストールしてくるのが良い</title><link>https://ryosukeYamazaki.github.io/p/go%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AF%E5%85%AC%E5%BC%8F%E3%81%8B%E3%82%89%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8B%E3%81%AE%E3%81%8C%E8%89%AF%E3%81%84/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/p/go%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AF%E5%85%AC%E5%BC%8F%E3%81%8B%E3%82%89%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8B%E3%81%AE%E3%81%8C%E8%89%AF%E3%81%84/</guid><description>&lt;h1 id="要は">要は&lt;/h1>
+&lt;/ul>
+&lt;h1 id="学歴">学歴&lt;/h1>
+&lt;p>TBD&lt;/p></description></item><item><title>Goの最新バージョンは公式からバイナリインストールしてくるのが良い</title><link>https://ryosukeYamazaki.github.io/p/go%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AF%E5%85%AC%E5%BC%8F%E3%81%8B%E3%82%89%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8B%E3%81%AE%E3%81%8C%E8%89%AF%E3%81%84/</link><pubDate>Fri, 06 May 2022 16:34:42 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/p/go%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AF%E5%85%AC%E5%BC%8F%E3%81%8B%E3%82%89%E3%83%90%E3%82%A4%E3%83%8A%E3%83%AA%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8B%E3%81%AE%E3%81%8C%E8%89%AF%E3%81%84/</guid><description>&lt;h1 id="要は">要は&lt;/h1>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://go.dev/doc/install" target="_blank" rel="noopener"
 >https://go.dev/doc/install&lt;/a> にあるとおりに実行する。&lt;br>
@@ -87,7 +92,7 @@
 &lt;p>プロジェクトごとでバージョンを管理する役割はGoの言語自体に取り込まれている。&lt;br>
 goenvの目的はプロジェクトごとでgoのバージョンを管理することだった。&lt;br>
 すると、Go言語の標準でないgoenvで管理する意味はなくなってくる。&lt;br>
-goenvはもういらないかな。&lt;/p></description></item><item><title>Archives</title><link>https://ryosukeYamazaki.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/archives/</guid><description/></item><item><title>hugoで新規記事の作り方</title><link>https://ryosukeYamazaki.github.io/p/hugo%E3%81%A7%E6%96%B0%E8%A6%8F%E8%A8%98%E4%BA%8B%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</link><pubDate>Wed, 02 Feb 2022 08:50:49 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/p/hugo%E3%81%A7%E6%96%B0%E8%A6%8F%E8%A8%98%E4%BA%8B%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</guid><description>&lt;p>めっちゃシンプルにMakefileに記事作成するコマンドを書いた&lt;/p>
+goenvはもういらないかな。&lt;/p></description></item><item><title>すべての記事</title><link>https://ryosukeYamazaki.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/archives/</guid><description/></item><item><title>hugoで新規記事の作り方</title><link>https://ryosukeYamazaki.github.io/p/hugo%E3%81%A7%E6%96%B0%E8%A6%8F%E8%A8%98%E4%BA%8B%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</link><pubDate>Wed, 02 Feb 2022 08:50:49 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/p/hugo%E3%81%A7%E6%96%B0%E8%A6%8F%E8%A8%98%E4%BA%8B%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</guid><description>&lt;p>めっちゃシンプルにMakefileに記事作成するコマンドを書いた&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>hugo new posts/&lt;span style="color:#e6db74">`&lt;/span>date &lt;span style="color:#e6db74">&amp;#39;+%Y&amp;#39;&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>/&lt;span style="color:#e6db74">`&lt;/span>date &lt;span style="color:#e6db74">&amp;#39;+%m%d&amp;#39;&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>.md
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>ITのプロダクトを商品の売りやすさについての考察</title><link>https://ryosukeYamazaki.github.io/p/it%E3%81%AE%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%82%92%E5%95%86%E5%93%81%E3%81%AE%E5%A3%B2%E3%82%8A%E3%82%84%E3%81%99%E3%81%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%80%83%E5%AF%9F/</link><pubDate>Sat, 01 Jan 2022 13:19:16 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/p/it%E3%81%AE%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%82%92%E5%95%86%E5%93%81%E3%81%AE%E5%A3%B2%E3%82%8A%E3%82%84%E3%81%99%E3%81%95%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%80%83%E5%AF%9F/</guid><description>&lt;h1 id="商品の売りやすさ">商品の売りやすさ&lt;/h1>
 &lt;p>有形 &amp;gt; 無形 のほうが売りやすい。&lt;br>
@@ -510,15 +515,4 @@ st = status # 追記する箇所はここ。
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>hugo server -v -D --bind 0.0.0.0 -p &lt;span style="color:#ae81ff">8888&lt;/span> --baseUrl&lt;span style="color:#f92672">=&lt;/span>hogehoge.net
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="きれいに立ち上がる">きれいに立ち上がる&lt;/h1>
 &lt;p>お疲れさまでした。&lt;br>
-めちゃ簡単に立ち上がった。&lt;/p></description></item><item><title>Links</title><link>https://ryosukeYamazaki.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
-&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">links&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">GitHub&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#ae81ff">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website&lt;/span>: &lt;span style="color:#ae81ff">https://github.com&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">TypeScript&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#ae81ff">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website&lt;/span>: &lt;span style="color:#ae81ff">https://www.typescriptlang.org&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">ts-logo-128.jpg&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://ryosukeYamazaki.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/search/</guid><description/></item></channel></rss>
+めちゃ簡単に立ち上がった。&lt;/p></description></item><item><title>リンク集</title><link>https://ryosukeYamazaki.github.io/%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86/</guid><description>&lt;p>他のページでまとめた制作物のリンク集です。&lt;/p></description></item><item><title>検索</title><link>https://ryosukeYamazaki.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/search/</guid><description/></item></channel></rss>

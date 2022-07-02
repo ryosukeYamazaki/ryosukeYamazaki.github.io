@@ -1,12 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on moaiの走り書き</title><link>https://ryosukeYamazaki.github.io/page/</link><description>Recent content in Pages on moaiの走り書き</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://ryosukeYamazaki.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://ryosukeYamazaki.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
-&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">links&lt;/span>:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">GitHub&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#ae81ff">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website&lt;/span>: &lt;span style="color:#ae81ff">https://github.com&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">TypeScript&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#ae81ff">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website&lt;/span>: &lt;span style="color:#ae81ff">https://www.typescriptlang.org&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">ts-logo-128.jpg&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://ryosukeYamazaki.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on moai商店</title><link>https://ryosukeYamazaki.github.io/page/</link><description>Recent content in Pages on moai商店</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 26 May 2022 16:12:48 +0900</lastBuildDate><atom:link href="https://ryosukeYamazaki.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>moaiについて</title><link>https://ryosukeYamazaki.github.io/about/</link><pubDate>Thu, 26 May 2022 16:12:48 +0900</pubDate><guid>https://ryosukeYamazaki.github.io/about/</guid><description>&lt;p>こんにちは。ようこそmoai商店へ。&lt;/p>
+&lt;p>moai商店を運営するmoaiです。&lt;br>
+ここではmoaiはどんな人なのかを説明します。&lt;/p>
+&lt;h1 id="人物紹介">人物紹介&lt;/h1>
+&lt;ul>
+&lt;li>本名：山崎遼介&lt;/li>
+&lt;li>2012年から一貫してソフトウェア開発を生業にしている&lt;/li>
+&lt;/ul>
+&lt;h1 id="人に提供できそうなこと">人に提供できそうなこと&lt;/h1>
+&lt;ul>
+&lt;li>ソフトウェア開発に関わる助言&lt;/li>
+&lt;li>SaaSソフトの開発体制についての助言&lt;/li>
+&lt;li>会計・人事労務の制度やソフトの運用方法に関する助言&lt;/li>
+&lt;li>小さいチームを大きくするときに意識するときのコツ&lt;/li>
+&lt;/ul>
+&lt;h1 id="欲しい物">欲しい物&lt;/h1>
+&lt;ul>
+&lt;li>TBD&lt;/li>
+&lt;/ul>
+&lt;h1 id="経験したプログラミング言語">経験したプログラミング言語&lt;/h1>
+&lt;ul>
+&lt;li>Golang&lt;/li>
+&lt;li>Ruby&lt;/li>
+&lt;li>Java&lt;/li>
+&lt;li>Typescript&lt;/li>
+&lt;/ul>
+&lt;h1 id="経験したフレームワークライブラリ">経験したフレームワーク・ライブラリ&lt;/h1>
+&lt;ul>
+&lt;li>Rails&lt;/li>
+&lt;li>Redux&lt;/li>
+&lt;li>Flux&lt;/li>
+&lt;li>Gorm&lt;/li>
+&lt;/ul>
+&lt;h1 id="開発で経験した業務領域">開発で経験した業務領域&lt;/h1>
+&lt;ul>
+&lt;li>保険&lt;/li>
+&lt;li>先物取引&lt;/li>
+&lt;li>人事労務&lt;/li>
+&lt;li>会計&lt;/li>
+&lt;li>工数管理&lt;/li>
+&lt;/ul>
+&lt;h1 id="ソフトスキル">ソフトスキル&lt;/h1>
+&lt;ul>
+&lt;li>コーチング（資格あり）&lt;/li>
+&lt;li>Agile（CSMを一時期持っていた）&lt;/li>
+&lt;/ul>
+&lt;h1 id="学歴">学歴&lt;/h1>
+&lt;p>TBD&lt;/p></description></item><item><title>すべての記事</title><link>https://ryosukeYamazaki.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/archives/</guid><description/></item><item><title>リンク集</title><link>https://ryosukeYamazaki.github.io/%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86/</guid><description>&lt;p>他のページでまとめた制作物のリンク集です。&lt;/p></description></item><item><title>検索</title><link>https://ryosukeYamazaki.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ryosukeYamazaki.github.io/search/</guid><description/></item></channel></rss>
